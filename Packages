@@ -55,6 +55,56 @@ SHA1: a2ad5c6ee55cfe4b118b48231283deb69c4df392
 SHA256: 7c2e778440de34b083209bc24812a4220b2a04ed6157c48c0866036a79b4e00a
 SHA521: 9d4c03e13b1cb5a9f1065025a37be3b7f28b23fc019d72d7c5fbf95f7d19684444214366de1b935db1032ccdb01312d93d567b7b4c1371696365c53d01d8ba83
 
+Package: anondev.LocalIAPStore
+Name: LocalIAPStore
+Version: 1.3-1
+Description: Pwns In-app purchases on iOS 4.3 - 6.x.x (works with developer servers,in-appstore.com DNS needed) | Сhangelog 1.3-1: *Guess who's back? 5.x.x support :P | Сhangelog 1.3: *Custom tickets! | Сhangelog 1.2: *New IAP protection methods hacked(Carmageddon,Into the dead, etc.) |
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: anondev
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+
+Filename: debs/anondev.LocalIAPStore_1.3-1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/anondev.LocalIAPStore.html
+Size: 46634
+MD5sum: 252bc4145cd8ef552b4b369344e0f0ab
+SHA1: 5d2cb33d8edc9082465d06f70005c2de1747507f
+SHA256: 91c51a932c972d1c3df23c0255749a04718d9e55625009da9dc246ca4c248d56
+SHA521: 76ef6af452d191fc44f98f27586f93d41569b3f42ba0bb6b4eee7f962f71a27fd63ab7bdc4ba26a6c34e5decaafba49a3cba6f1a7067b1baf11ded8751d9b7eb
+
+Package: anondev.LocalIAPStore
+Name: LocalIAPStore
+Version: 1.4-1
+Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer servers,in-appstore.com DNS needed). 64bit compatible
+Section: Tweaks
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: anondev
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+
+Filename: debs/anondev.LocalIAPStore_1.4-1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/anondev.LocalIAPStore.html
+Size: 71170
+MD5sum: adce93b64675706f4a4c4b5204a1e8fe
+SHA1: c9bb6d2749f5d065e9c29a2a39cf233a3a1465d2
+SHA256: 97d20ebc8f9d96da6f4749499be4664d7ab946d469439b7ab04af1e167afaca2
+SHA521: 3cea27168de80d04de4c650de5bdc01033fc15fe3dc955a19fb7266ff7ebeeb7047f49d4ef1651e4fbb85c829306fdb5e3840888bebb9d92bd5c9c34627d1daf
+
 Package: vn.xn117khdsh.apex
 Version: 1.4.1-1fix
 Section: Tweaks
@@ -890,27 +940,6 @@ MD5sum: ab0a38cf477907ff13f5aa590ee7ee97
 SHA1: 92c4cb44d9aef021a371b4090f376ed126286dbe
 SHA256: 62aa78ef671e7f0ae2b6f48418f1b6ca3f0c669c36352f3a40850105a15322ba
 SHA521: 66bb9b123d4efd7510f8b83454701647c2ba8def839d829acd037b7702abacfd687a7e38ed490b03276341cf56d7ffeedb33f742dc1fc5402e66718fbd340375
-
-Package: anondev.LocalIAPStore
-Name: LocalIAPStore Legacy
-Version: 1.4-2
-Description: Pwns In-app purchases on iOS 5.1.1 - 10.2. This is the older but more stable version for older iDevices.
-Section: Tweaks
-Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Priority: optional
-Architecture: iphoneos-arm
-Author: anondev
-Depiction: https://xn117khdsh.github.io/repo/depictions/?p=anondev.LocalIAPStore
-Maintainer: xn117khdsh
-Icon: file:///Library/PreferenceLoader/Preferences/LocalIAPStoreIcon@2x.png
-
-Filename: debs/localiapstore_1.4-2.deb
-Depiction: https://imnotsatan.github.io/depictions/anondev.LocalIAPStore.html
-Size: 68322
-MD5sum: 356dcb97281d92c141ade7bf935e3be6
-SHA1: 030d81faf2ddc65b043320d0ec8e2b05ec29e2ba
-SHA256: 310c7283197f46c5fa124c6094431f3f9aa47472e2c5a2ce6da00b9332e258eb
-SHA521: 68d01efcee2ddbab5b76f6098e9c2d596a47983c9ed95bf8915f3bd84d12fbd6a2043f59a54f6f3c106f00a07657e22af58dbdad10ad3467baef3ad0c6dfd1b6
 
 Package: vn.xn117khdsh.mailenhancerpro2
 Version: 2.1-1
