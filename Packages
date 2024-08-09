@@ -464,21 +464,17 @@ Name: FullForce for Phone
 Homepage: http://rpetri.ch/cydia/fullforceforphone/
 Depiction: http://rpetri.ch/cydia/fullforceforphone/
 Author: Ryan Petrich <rpetrich@gmail.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
 Conflicts: com.kindadev.goodfit
 Replaces: com.kindadev.goodfit
-dev: rpetrich
-Tag: purpose::extension, cydia::commercial
 Version: 1.1.3~beta1
-Installed-Size: 264
-Filename: debs/com.rpetrich.fullforce_v1.1.3~beta1.deb
+Filename: debs/com.rpetrich.fullforce_v1.1.3_beta1.deb
 Depiction: https://imnotsatan.github.io/depictions/com.rpetrich.fullforce.html
 Icon: https://imnotsatan.github.io/icons/com.rpetrich.fullforce.png
-Size: 108134
-MD5sum: 53e4f77503eadbccdf884991849a06f6
-SHA1: 86b741e2fc1718d655176a1fd39245b04d4b7baa
-SHA256: 0c070d4c3bb64c39320b74fb09ea559c65c5e7556c506691288d85ee0d94711b
-SHA521: 151e7d00f8a64078a711569cfc0f7e080dc55a6a59a751e1db0ae45c04038b364db4957369b25c682533b02c004037f17f31f13094c4a4ecf563b25d963ff2f6
+Size: 108364
+MD5sum: 2a0dce738d2443aa66bb0f7714dff596
+SHA1: 0c02de97dc4f9a7fa1e378e5409e1e283a07e18b
+SHA256: d7fa830d51e07a5e3b40a61aa56e443d30443f6e7870ba0d8717ac628674f194
+SHA521: a036293d9ca5931584bad0e90d7c515f94c50dca474f1d5a4a1ec980c9634f56da1b783bd2cbaa7950e437fa23113b296c838c1611020bbefcad42c524352ff9
 
 Package: com.unthreadedjb.unthredera1n
 Name: Unthredera1n
