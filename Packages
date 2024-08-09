@@ -992,6 +992,50 @@ SHA1: 7c9fa876c08dc110ba943739b9f58e95d53f53c6
 SHA256: 3d3cfd2a558124240ceab37290d804dc8c20450d7aadf31ac5eafb66e99f9256
 SHA521: 7270a90277324fddaf07479aa1de7808000b847c189489456f8a7767ccb7f321f6bf53ee779b5247bcea3d07b523210bf1bece0d127a942b90b080b2707d0fb7
 
+Name: Stashing for #etasonJB (8.4.1)
+Package: net.angelxwind.stash841
+Version: 1.0
+Description: Enables stashing on #etasonJB (iOS 8.4.1)
+Section: System
+Depends: net.tihmstar.etasonuntether (>= 1.1.0), firmware (= 8.4.1)
+Conflicts: 
+Replaces:
+Architecture: iphoneos-arm
+Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Homepage: https://cydia.angelxwind.net/
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash841
+Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Filename: debs/net.angelxwind.stash841.deb
+Depiction: https://imnotsatan.github.io/depictions/net.angelxwind.stash841.html
+Icon: https://imnotsatan.github.io/icons/net.angelxwind.stash841.png
+Size: 1004
+MD5sum: 056dbabe7447460a4504159bbb41cc53
+SHA1: 834986ae8bf57f6ca30719c334e67664118e0288
+SHA256: 1ff89f9842ffbad6285c7f4e3b13e56e9ed90f037eee8b60664bd327a6305b22
+SHA521: 18fe8df6d93bee770cdcb2d08d5ec30679ad3fd9b49e6d8380ad460d3e9f4578822e39a1de4c72eadd9d1f0e8ea95ad040444531ae05ec49adc4dad4e770055c
+
+Name: Stashing Fix for Phœnix (9.3.5)
+Package: net.angelxwind.stash935fix
+Version: 1.0
+Description: Fixes stashing on Phœnix (iOS 9.3.5)
+Section: System
+Depends: firmware (= 9.3.5)
+Conflicts: 
+Replaces:
+Architecture: iphoneos-arm
+Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Homepage: https://cydia.angelxwind.net/
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash935fix
+Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Filename: debs/net.angelxwind.stash935fix.deb
+Depiction: https://imnotsatan.github.io/depictions/net.angelxwind.stash935fix.html
+Icon: https://imnotsatan.github.io/icons/net.angelxwind.stash935fix.png
+Size: 970
+MD5sum: 38e4af9500bb5d6c1aaa7a975e8946e4
+SHA1: d56ecd3fa57d1c6e76494d8626edadf5c54af3d2
+SHA256: dc42cdb74d0cd2d0dc3928becad4482717b5a8aaa0f18f3051ae1b7065969481
+SHA521: d74fcee11a75fe42d19275516f91cdeda3dc57484f2f41571e418b1371a415357aaf204ed340f14fbbdc1fdeed5c6b6e8569585c3ab7e8c4539fc31256d5ec10
+
 Package: com.pNre.noannoyance
 Name: NoAnnoyance (iOS 7)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 7)
@@ -1009,6 +1053,29 @@ MD5sum: 54c3799abd4e7b1a6752e9bee989a357
 SHA1: d18410a935aa874c9de7137a1cd48c6797985786
 SHA256: 5c2f7d6c3dfe2b8fd30c45f082b1a13d3242987944ff75573cb61ff5dc1224e0
 SHA521: 5a47589ce7d76e93fd3fd4fed2a4ff213ee445c37deb5934e4671991a31c1c5c8f7a00307424f0aaddaf80bdc622b0e1144f91dd34d54beb70452aab99945b7c
+
+Package: net.angelxwind.sandboxpathfixer
+Name: Sandbox Path Fixer
+Depends: mobilesubstrate, firmware (>= 8.0), com.rpetrich.rocketbootstrap (>= 1.0.2), net.angelxwind.karenprefs, applist
+Architecture: iphoneos-arm
+Description: Fixes sandbox paths for certain apps that are broken in iOS 8.0 and above
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Author: Karen/あけみ <karen@akemi.ai>
+Section: Tweaks
+Replaces: 
+Conflicts: 
+Homepage: https://cydia.akemi.ai/
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.sandboxpathfixer
+Version: 1.5
+Installed-Size: 696
+Filename: debs/nodelete-net.angelxwind.sandboxpathfixer.deb
+Depiction: https://imnotsatan.github.io/depictions/net.angelxwind.sandboxpathfixer.html
+Icon: https://imnotsatan.github.io/icons/net.angelxwind.sandboxpathfixer.png
+Size: 23204
+MD5sum: 191c0f7fc3817119598160b1c3738331
+SHA1: fb7a7356ae7679f2c4b4e19e427aca6d7360e05b
+SHA256: be141a49b9e8a2aa2dc99766a2f34a8243588a90b1cb277c3bebebf49738761d
+SHA521: ae4aa82f6613ea4bf60f0cd670c612e04edb0a520a8e962f123995d42583cacb68f5b862a116d979fe4f3417922f70a26ee3a54e781e96b2a80a7d894eaf8043
 
 Package: vn.xn117khdsh.protube2
 Version: 2.2.3
