@@ -454,6 +454,31 @@ SHA1: e4b349a7546415461ecb34060068c4e9222b9805
 SHA256: 99d60b9815e16c9e5d02d27c5090c7e724899fb5b7232f1981564652080123c4
 SHA521: 7536f3e65e9b9f9639d5f3d11204ec5f026b13b631d32d40b64d586e6f9b6c9fa8745f8d197eb92db39fb68fcd1e152a477c0b43d29d73e1571f6b0e1ed0a844
 
+Package: com.rpetrich.fullforce
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Depends: firmware (>= 6), mobilesubstrate, preferenceloader (>= 2.2), applist (>= 1.5.9~beta1), cy+model.iphone | cy+model.ipod
+Description: Force applications to show in fullscreen mode
+Name: FullForce for Phone
+Homepage: http://rpetri.ch/cydia/fullforceforphone/
+Depiction: http://rpetri.ch/cydia/fullforceforphone/
+Author: Ryan Petrich <rpetrich@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Conflicts: com.kindadev.goodfit
+Replaces: com.kindadev.goodfit
+dev: rpetrich
+Tag: purpose::extension, cydia::commercial
+Version: 1.1.3~beta1
+Installed-Size: 264
+Filename: debs/com.rpetrich.fullforce_v1.1.3~beta1.deb
+Depiction: https://imnotsatan.github.io/depictions/com.rpetrich.fullforce.html
+Size: 108134
+MD5sum: 53e4f77503eadbccdf884991849a06f6
+SHA1: 86b741e2fc1718d655176a1fd39245b04d4b7baa
+SHA256: 0c070d4c3bb64c39320b74fb09ea559c65c5e7556c506691288d85ee0d94711b
+SHA521: 151e7d00f8a64078a711569cfc0f7e080dc55a6a59a751e1db0ae45c04038b364db4957369b25c682533b02c004037f17f31f13094c4a4ecf563b25d963ff2f6
+
 Package: com.unthreadedjb.unthredera1n
 Name: Unthredera1n
 Version: 1.0
@@ -913,6 +938,25 @@ MD5sum: ab0a38cf477907ff13f5aa590ee7ee97
 SHA1: 92c4cb44d9aef021a371b4090f376ed126286dbe
 SHA256: 62aa78ef671e7f0ae2b6f48418f1b6ca3f0c669c36352f3a40850105a15322ba
 SHA521: 66bb9b123d4efd7510f8b83454701647c2ba8def839d829acd037b7702abacfd687a7e38ed490b03276341cf56d7ffeedb33f742dc1fc5402e66718fbd340375
+
+Package: vn.gsm.localiapstore
+Version: 1.4-2
+Priority: optional
+Section: Tweaks
+Maintainer: anon dev
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Conflicts: anondev.LocalIAPStore
+Architecture: iphoneos-arm
+Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
+Name: LocalIAPStore
+Author: anon dev
+Filename: debs/localiapstore_1.4-2_test.deb
+Depiction: https://imnotsatan.github.io/depictions/vn.gsm.localiapstore.html
+Size: 70798
+MD5sum: 167c1468039e794b1a19b133b10f23ea
+SHA1: 8ba65b5061ba6b6a03a64571a5a76f2a912c03ff
+SHA256: edde6419d6737d5dc03f3c7ff3fee57c90d7c5fe883b2627040ee69b57bb7615
+SHA521: 82741c4b3a5037d10c8ff63946a289226532c44d82bf4bc2c0ce84160bd30b9ffba9aebcc415850e88e6030369aacd8deb9cdc7c42ab3f3a58b61064612efc2c
 
 Package: vn.xn117khdsh.mailenhancerpro2
 Version: 2.1-1
