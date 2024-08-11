@@ -1018,21 +1018,19 @@ Version: 1.0
 Description: Enables stashing on #etasonJB (iOS 8.4.1)
 Section: System
 Depends: net.tihmstar.etasonuntether (>= 1.1.0), firmware (= 8.4.1)
-Conflicts: 
-Replaces:
 Architecture: iphoneos-arm
-Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Author: Karen
 Homepage: https://cydia.angelxwind.net/
 Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash841
-Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
-Filename: debs/net.angelxwind.stash841_fix.deb
+Maintainer: Karen
+Filename: debs/net.angelxwind.stash841_fixed.deb
 Depiction: https://imnotsatan.github.io/depictions/net.angelxwind.stash841.html
 Icon: https://imnotsatan.github.io/icons/net.angelxwind.stash841.png
-Size: 1004
-MD5sum: 056dbabe7447460a4504159bbb41cc53
-SHA1: 834986ae8bf57f6ca30719c334e67664118e0288
-SHA256: 1ff89f9842ffbad6285c7f4e3b13e56e9ed90f037eee8b60664bd327a6305b22
-SHA521: 18fe8df6d93bee770cdcb2d08d5ec30679ad3fd9b49e6d8380ad460d3e9f4578822e39a1de4c72eadd9d1f0e8ea95ad040444531ae05ec49adc4dad4e770055c
+Size: 1190
+MD5sum: 4de38a9613e0657d1192c21e4e57b729
+SHA1: c12d8fce079e743dbcc62803ce77f44253c74a6b
+SHA256: 562a26cd0c16da19a875d493ff6f1697a03fe4d12f276a71da6ae9c6c257808b
+SHA521: ca260873695a1a29c9be12258dd04a5234e62074942e68540f5641fd8225c69ceb39539184da2a891a3e378e8d1e366a1a5544fb73b65c273ab6f325db532cd0
 
 Name: Stashing Fix for Phœnix (9.3.5)
 Package: net.angelxwind.stash935fix
