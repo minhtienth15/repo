@@ -75,29 +75,6 @@ SHA1: 7679aa4ec8189cd83b7bc718542a5d840535f4db
 SHA256: d5405532833ee0d57ea795e4e255ff425ba125ba1dcd886819c4f8a657599435
 SHA521: f002352c3a31be4a51b82420ab27338931e2e2754a428a5738da2bd91102da84343a69c694ce8190a8d660e55950e7d8ee17bc529ce3c66ae194b250d6baaa6c
 
-Package: vn.gsm.appsync70plus
-Version: 5.8
-Section: !CydiaVn-Tools
-Maintainer: Cydia.vn <repo@cydia.vn>
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 10.0)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, ppsync, vn.gsm.appsync50plus, com.heaveniphone.appsync70plus, net.angelxwind.appsyncunified, com.linusyang.appinst, com.hackyouriphone.appsyncunified, com.insanelyi.appsyncunified, com.xarold.appsyncunified, vn.gsm.appsyncunified
-Provides: appsync
-Replaces: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, ppsync, vn.gsm.appsync50plus, com.heaveniphone.appsync70plus, net.angelxwind.appsyncunified, com.linusyang.appinst, com.hackyouriphone.appsyncunified, com.insanelyi.appsyncunified, com.xarold.appsyncunified
-Architecture: iphoneos-arm
-Installed-Size: 336
-Description: AppSync Unified allows you to sync and install unsigned iOS applications. Works on iOS 5 and above.
-Name: AppSync for iOS 6, 7, 8, 9
-Author: Linus Yang, Karen Tsai
-Depiction: http://cydia.vn/depic/t4522/
-Homepage: http://cydia.vn/
-Filename: debs/appsync70plus_5.8.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.gsm.appsync70plus.html
-Size: 163114
-MD5sum: 8f849a1cbbe4ce7d60cfb489fcfd98a3
-SHA1: 0093f403c4fb8438d2754355197212a82eb5a063
-SHA256: d7e66e3bc801ecc307732b383aef628c09100f8deec284b8380f887ec309c692
-SHA521: b463c11fca94fe7ce42defe46a49bdab40b233493500ffe22320f36570a747cb2b14932c94ff821ecd00a1713f4a38eee70ca906549c655488e845509996c22a
-
 Package: com.linusyang.appsyncnew
 Name: AppSync New (iOS 6-12)
 Depends: mobilesubstrate
@@ -1013,6 +990,44 @@ MD5sum: cdca9fba89058391b9e83513e0145b7b
 SHA1: e0e573e6d2da4576c8837946c46e7630f8a4735e
 SHA256: dbc01a914768a4db87b996994431f2977756abc471321c8e573f9e58a7bf60cf
 SHA521: da0be5bcd8986945ba3ff09e8d0a2b95aaf844371e9e74ac520b63f4e647a7638c3a644c80547d0111a421f797574e31319a486839a721be4e975ec21c603a67
+
+Package: us.gsm.appsync70plus
+Version: 5.8
+Section: Tweaks
+Maintainer: Linus Yang, Karen Tsai
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 10.0)
+Conflicts: com.linusyang.appsync, net.angelxwind.appsyncunified, com.linusyang.appsyncnew
+Provides: appsync
+Replaces: com.linusyang.appsync, net.angelxwind.appsyncunified, com.linusyang.appsyncnew
+Architecture: iphoneos-arm
+Description: AppSync Unified allows you to sync and install unsigned iOS applications. Works on iOS 5 and above.
+Name: AppSync for iOS 6, 7, 8, 9
+Author: Linus Yang, Karen Tsai
+Filename: debs/us.gsm.appsync70plus_5.8.deb
+Depiction: https://imnotsatan.github.io/depictions/us.gsm.appsync70plus.html
+Size: 163350
+MD5sum: 0d8e8030909d744442846482733f7ab3
+SHA1: 28a0c0bf0566644e392d393c327c4366c68ee91b
+SHA256: 8a419d1b71e17ab142a11538403aa397da3915c3a8ac9ca41fa3f927aa55b19f
+SHA521: c4dc550bccf61d1e1fa7ebc0155c4f22b1400cf33ff2c3d9801771916e3cdf904756c3813ac20fd8101a951381fc0518875cb50ba10346ce9ac2a7fb22e5ebba
+
+Package: us.gsm.powersaver
+Name: Power Saver Mode
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Adds a power-saving mode to iOS that disables some system settings to extend battery life. Adds a link to the Battery Usage section to the main settings page, and adds the power saving mode button to the top of the battery usage view. Compatible with iOS 8.
+Maintainer: Elijah Frederickson
+Author: Elijah Frederickson
+Section: Tweaks
+Version: 0.0.1-68
+Filename: debs/us.gsm.powersaver_0.0.1-68.deb
+Depiction: https://imnotsatan.github.io/depictions/us.gsm.powersaver.html
+Icon: https://imnotsatan.github.io/icons/us.gsm.powersaver.png
+Size: 137602
+MD5sum: 8efba2b6747eb1dff6fbb672c89b3b69
+SHA1: dbf4c01a123506476189126496bb31c391253e05
+SHA256: a86d3f6ea11289ca66e7b13edf4f477678c16a55d345c0de613e080e304b9065
+SHA521: 7d260666e78d0be988e7190144f7139170cb03c36fc86202e43ffeff5f166529e35662dfd2a65f49b9961de5e73e8543744ee48dc9f311189571d088c1f96ed5
 
 Package: us.scw.afctwoadd
 Name: afc2add
