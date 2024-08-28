@@ -292,28 +292,6 @@ SHA1: e4b349a7546415461ecb34060068c4e9222b9805
 SHA256: 99d60b9815e16c9e5d02d27c5090c7e724899fb5b7232f1981564652080123c4
 SHA521: 7536f3e65e9b9f9639d5f3d11204ec5f026b13b631d32d40b64d586e6f9b6c9fa8745f8d197eb92db39fb68fcd1e152a477c0b43d29d73e1571f6b0e1ed0a844
 
-Package: com.rpetrich.fullforce
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Architecture: iphoneos-arm
-Depends: firmware (>= 6), mobilesubstrate, preferenceloader (>= 2.2), applist (>= 1.5.9~beta1), cy+model.iphone | cy+model.ipod
-Description: Force applications to show in fullscreen mode
-Name: FullForce for Phone
-Homepage: http://rpetri.ch/cydia/fullforceforphone/
-Depiction: http://rpetri.ch/cydia/fullforceforphone/
-Author: Ryan Petrich <rpetrich@gmail.com>
-Conflicts: com.kindadev.goodfit
-Replaces: com.kindadev.goodfit
-Version: 1.1.3~beta1
-Filename: debs/com.rpetrich.fullforce_v1.1.3_beta1.deb
-Depiction: https://imnotsatan.github.io/depictions/com.rpetrich.fullforce.html
-Icon: https://imnotsatan.github.io/icons/com.rpetrich.fullforce.png
-Size: 108364
-MD5sum: 2a0dce738d2443aa66bb0f7714dff596
-SHA1: 0c02de97dc4f9a7fa1e378e5409e1e283a07e18b
-SHA256: d7fa830d51e07a5e3b40a61aa56e443d30443f6e7870ba0d8717ac628674f194
-SHA521: a036293d9ca5931584bad0e90d7c515f94c50dca474f1d5a4a1ec980c9634f56da1b783bd2cbaa7950e437fa23113b296c838c1611020bbefcad42c524352ff9
-
 Package: com.unthreadedjb.unthredera1n
 Name: Unthredera1n
 Version: 1.0
@@ -604,6 +582,28 @@ MD5sum: d91b93620a17e3a0af771ac5afb0726f
 SHA1: bc393e2d7cdf53d18354e75e7dbb78ef14bb16bd
 SHA256: f6705728be7dab28b9bb0b138bfe77d0296e682f60ff536062086d3b428b58c4
 SHA521: cfa01e67267465332b06515771b601635d052b18e730716aa19f55b84f418feef9be28445df5b8d4cb063d26d6eb5dc93e6394e6220e91cb12c9f935df50a27b
+
+Package: crk.rpetrich.fullforce
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Depends: firmware (>= 6), mobilesubstrate, preferenceloader (>= 2.2), applist (>= 1.5.9~beta1), cy+model.iphone | cy+model.ipod
+Description: Force applications to show in fullscreen mode
+Name: FullForce for Phone
+Homepage: http://rpetri.ch/cydia/fullforceforphone/
+Depiction: http://rpetri.ch/cydia/fullforceforphone/
+Author: Ryan Petrich <rpetrich@gmail.com>
+Conflicts: com.kindadev.goodfit
+Replaces: com.kindadev.goodfit
+Version: 1.1.3~beta1
+Filename: debs/fullforce_v1.1.3_beta1.deb
+Depiction: https://imnotsatan.github.io/depictions/crk.rpetrich.fullforce.html
+Icon: https://imnotsatan.github.io/icons/crk.rpetrich.fullforce.png
+Size: 108368
+MD5sum: 5f9e7c0557e20a4b28e5cdf388489883
+SHA1: 8d8cdfd14968e16ac0161c742fbedd2741125093
+SHA256: f96d99f0b74944db0a0eb455d67ace1d25248ae885a28a3f8e4a4357b3e51991
+SHA521: 1ff4235a03949dda1c699ffd24b908d50c8495bf17ba21aaa6b3e2a90a3f9eefaaf629a21fbdd999727b104eab7a06d26b33036f5d60763f214341cf994fc776
 
 Package: com.xn117khdsh.gameplayer
 Name: GamePlayer
