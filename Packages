@@ -851,6 +851,28 @@ SHA1: 350949d26da9d73d9ae0d65934f800e714ebf37b
 SHA256: eb7171ba51339889d6e7ec7e87141ddcc3c52ad26dcd557b8eb827cfc6ddda7f
 SHA521: f918d8bb8658c76fc9644969931cd44f26c82d423341ef11f9c3426985c7df0e9b0a1ef2c3a17ba858e03dfff14bf335f11e29331dad09af07f06977fa9fcf99
 
+Author: Joe Jordan 
+Section: !CydiaVn-Tools
+Maintainer: Cydia.vn <repo@cydia.vn>
+Name: Nitrous
+Package: vn.gsm.nitrous
+Depends: gsmicon, firmware (>= 4.3), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist (>= 1.5.7), bash, coreutils-bin, shell-cmds
+Version: 2.3-2
+Architecture: iphoneos-arm
+Description: Give JavaScript a speed boost with Nitro
+Icon: file:///Library/PreferenceBundles/Nitrous.bundle/Nitrous@2x.png
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t4522/
+Homepage: http://cydia.vn/
+
+Filename: debs/nitrous_2.3-2.deb
+Depiction: https://imnotsatan.github.io/depictions/vn.gsm.nitrous.html
+Size: 110982
+MD5sum: d9accbb80a4b0dac35dcf8802a279d1b
+SHA1: 279406880d8cd1920df0adbb94b74dd467654cd4
+SHA256: ef549b8345f4133e010be482e6f6081821aa7bd16fec5c03e2e98013e40bccc7
+SHA521: 6e5e4278660c748b345bb77234fe29fc031f337ac02d59184f3253e1749a9634d40421867ce493f76bce9538537e3e2845cd882b75e7371dae136ebebf7b21f7
+
 Package: com.pNre.noannoyance
 Name: NoAnnoyance (iOS 7)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 7)
