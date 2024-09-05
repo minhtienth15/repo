@@ -315,6 +315,27 @@ SHA1: 2223f98388375e8d793feeb4cd63055118d9b2d7
 SHA256: 1928fbc5d180fffe651921d268929f916b02a0ab2b8b0ce53d8b774b218d0122
 SHA521: 9c98953dee98694b6c7f4fce977e3674e486f2017fdb0917dfe9b4cab05ce813898f9beb1695a083ab50acba3d03cbc598bbcf4c0cdd0f5de91eca5d08e0643a
 
+Author: Joe Jordan
+Maintainer: cooler3105
+Name: Nitrous
+Package: crk.gsm.nitrous
+Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5015), preferenceloader (>= 2.2.2), applist (>= 1.5.9)
+Breaks: io.pangu.xuanyuansword8 (<< 0.2)
+Section: Tweaks
+Version: 2.3-2
+Architecture: iphoneos-arm
+Description: Give JavaScript a speed boost with Nitro
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
+Filename: debs/crk.gsm.nitrous_2.3-2.deb
+Depiction: https://imnotsatan.github.io/depictions/crk.gsm.nitrous.html
+Icon: https://imnotsatan.github.io/icons/crk.gsm.nitrous.png
+Size: 110912
+MD5sum: fba4968269d1e22ffd56d244bd5ad4f9
+SHA1: 60aebc4487321f205abc1f87c29ad47d9a19ef5f
+SHA256: 2c0c415e08033a6b67f8bfac7b7a506cd1f4e5715ffe0178e7f2b60d1d08d47d
+SHA521: d9189edae3ab6e02a173b8f83474c868a6f0442af746d0f7805fbe693899aec227e4c54b6bd4151e7a7a1a6081ce7e3a7a1dde8f911276abc5d25e76115c67fb
+
 Package: crk.heinelt.ifile
 Name: iFile
 Version: 1.6.1-1
@@ -850,25 +871,6 @@ MD5sum: 7a1dd0952b05fee830ba665b356edd89
 SHA1: 350949d26da9d73d9ae0d65934f800e714ebf37b
 SHA256: eb7171ba51339889d6e7ec7e87141ddcc3c52ad26dcd557b8eb827cfc6ddda7f
 SHA521: f918d8bb8658c76fc9644969931cd44f26c82d423341ef11f9c3426985c7df0e9b0a1ef2c3a17ba858e03dfff14bf335f11e29331dad09af07f06977fa9fcf99
-
-Author: Joe Jordan 
-Section: Tweaks
-Maintainer: cooler3105
-Name: Nitrous
-Package: crk.gsm.nitrous
-Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist (>= 1.5.7), bash, coreutils-bin, shell-cmds
-Version: 2.3-2
-Architecture: iphoneos-arm
-Description: Give JavaScript a speed boost with Nitro
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
-
-Filename: debs/nitrous_2.3-2_crk.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.gsm.nitrous.html
-Size: 110894
-MD5sum: 3ee4a0e789ef7e9f7376e38ceaa2e297
-SHA1: ee231a206ac934b4ec746e2d1ca036eda99f2f6c
-SHA256: 2674ff91024233a4966144d499023c9ce0291a3781a0462768e74e73cd376619
-SHA521: 679b7c1619e2ab3046d8c7a75d1f6636fea9db7dda0effc4e59f5b4b989ac37af949aeb62fbd84c310125b7a5b77503a0591a1ce2e1eed34770f755a56244dea
 
 Package: com.pNre.noannoyance
 Name: NoAnnoyance (iOS 7)
