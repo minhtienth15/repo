@@ -227,6 +227,7 @@ Version: 1.0.0-1
 Installed-Size: 1532
 Filename: debs/com.fuerza.N3Hacks.deb
 Depiction: https://imnotsatan.github.io/depictions/com.fuerza.N3Hacks.html
+Icon: https://imnotsatan.github.io/icons/com.fuerza.N3Hacks.png
 Size: 1247112
 MD5sum: f94fbdc4589239f06a788ed97d534e9a
 SHA1: 5c10105d70aebe64151bb67ea50b777ab76ccfd3
@@ -905,6 +906,7 @@ Version: 4.0.3
 Installed-Size: 15548
 Filename: debs/nodelete-net.angelxwind.mikoto.deb
 Depiction: https://imnotsatan.github.io/depictions/net.angelxwind.mikoto.html
+Icon: https://imnotsatan.github.io/icons/net.angelxwind.mikoto.png
 Size: 11582804
 MD5sum: e1f49254a62ed949fd6d7d44c0b01043
 SHA1: 5717d7348bd1a23cc7bb94f659704409a21eeb8a
@@ -924,6 +926,7 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=protube2Dp
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=protube2Dp
 Filename: debs/protube2_2.2.3_yt.deb
 Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.protube2.html
+Icon: https://imnotsatan.github.io/icons/vn.xn117khdsh.protube2.png
 Size: 2688956
 MD5sum: 7934f3db8a96638fd192e0c44af67642
 SHA1: d4e772d1b465ddf1c1c62acde717c289308a518c
