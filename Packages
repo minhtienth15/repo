@@ -1,1188 +1,1078 @@
-Package: com.xn117khdsh.abs
-Name: AirBlue Sharing (iOS 7-)
-Version: 1.3.95
-Depends: mobilesubstrate (>= 0.9.5000), libactivator | com.clezz.quickdo, shell-cmds, coreutils, coreutils-bin, com.ericasadun.utilities, com.if0rce.blued | com.ericday.blued, preferenceloader (>= 2.2.2), com.if0rce.blued-ng | com.ericday.blued-ng
-Pre-Depends: firmware (>= 4.2)
-Architecture: iphoneos-arm
-Author: xn117khdsh
-Section: Tweaks
-Description: Bluetooth OBEX and WiFi(P2P supported) File Transfer, AirDrop for your iOS
-Homepage: https://xn117khdsh.github.io/repo/
-Maintainer: xn117khdsh
-Filename: debs/abs_1.3.95.deb
-Depiction: https://imnotsatan.github.io/depictions/com.xn117khdsh.abs.html
-Size: 4214592
-MD5sum: dd2bf3ade1d14acfe8ab29818ad15c0c
-SHA1: 3448fb7177119a0edbd9b717a22f84c91638c80f
-SHA256: 765c118a65684451c2afbbba1db85b807f4d88a9d33507ca58a4b3a5a1778589
-SHA521: 483c7b00f42de7ce1139bc1ed0cb23902e2432e4f27f54e458cb52413ffba55428d25129e933dddee9ff4a36e69d9fc0c337bdefc3eba1f193f4124cd45ffc6a
-
-Package: vn.xn117khdsh.libactivatorpatch
-Version: 1.8.3
-Section: Tweaks
-Maintainer: xn117khdsh
-Depends: libactivator (>= 1.8.3)
-Architecture: iphoneos-arm
-Installed-Size: 45
-Description: Ad Removal Patch for Activator (Required v1.8.3 or newer).
-Name: Activator NoAds Patch
-Author: Cydia.vn
-Depiction: Ad Removal Patch for Activator (Required v1.8.3 or newer).
-Filename: debs/activatornoads.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.libactivatorpatch.html
-Size: 211306
-MD5sum: 8f19c93067a76157f00375557a81bfbb
-SHA1: 86c23cd48cbec5c6ee17fb568bf17bd65a74562e
-SHA256: 02aecf5b9c115f2e095504d6380de09dc2ec28a51e5f11dabb0dbda85e7ab785
-SHA521: 8842bfe8fae748b5fc40257a48b28e26ce8d2da2312340dc4932c456533b3c187fb08bf34c0090173406b1bd333bfefca458ae959ca8273c3cb6ce315b66ddfb
-
-Author: A3tweaks 
-Maintainer: xn117khdsh
-Name: AltKeyboard (iOS 6)
-Package: vn.xn117khdsh.altkeyboard
-Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
-Section: Tweaks
-Version: 1.0.0
-Architecture: iphoneos-arm
-Description: flick up to input numeric or special characters
-Depiction: https://xn117khdsh.github.io/repo/depictions/?p=vn.xn117khdsh.altkeyboard
-Homepage: https://xn117khdsh.github.io/repo/
-Filename: debs/altkeyboard_1.0.0.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.altkeyboard.html
-Size: 138246
-MD5sum: 6fdb2c4b9349e440a3347dcfb41234a2
-SHA1: a2ad5c6ee55cfe4b118b48231283deb69c4df392
-SHA256: 7c2e778440de34b083209bc24812a4220b2a04ed6157c48c0866036a79b4e00a
-SHA521: 9d4c03e13b1cb5a9f1065025a37be3b7f28b23fc019d72d7c5fbf95f7d19684444214366de1b935db1032ccdb01312d93d567b7b4c1371696365c53d01d8ba83
-
-Package: vn.xn117khdsh.appsync50plus
-Version: 2.2b
-Section: Tweaks
-Maintainer: xn117khdsh
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: com.linusyang.appsyncnew
-Replaces: com.linusyang.appsyncnew
-Architecture: iphoneos-arm
-Description: AppSync allows you to sync and install cracked iOS applications. Works for iOS5.x and 6.x
-Name: AppSync Legacy (iOS 5-6)
-Author: Dissident
-Homepage: https://xn117khdsh.github.io/repo/
-Filename: debs/appsync50plus_2.2b.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.appsync50plus.html
-Size: 4706
-MD5sum: 314ba6abd413ba8cac0077796711d903
-SHA1: 7679aa4ec8189cd83b7bc718542a5d840535f4db
-SHA256: d5405532833ee0d57ea795e4e255ff425ba125ba1dcd886819c4f8a657599435
-SHA521: f002352c3a31be4a51b82420ab27338931e2e2754a428a5738da2bd91102da84343a69c694ce8190a8d660e55950e7d8ee17bc529ce3c66ae194b250d6baaa6c
-
-Package: com.linusyang.appsyncnew
-Name: AppSync New (iOS 6-12)
-Depends: mobilesubstrate
-Conflicts: com.linusyang.appsync, net.angelxwind.appsyncunified
-Provides: appsync
-Architecture: iphoneos-arm
-Description: bypass signature check of installd
-Maintainer: Linus Yang
-Author: Linus Yang
-Section: Tweaks
-Version: 1.4
-Filename: debs/appsyncnew_1.4.deb
-Depiction: https://imnotsatan.github.io/depictions/com.linusyang.appsyncnew.html
-Size: 6432
-MD5sum: fa30e5d60d803c53478d7cbc8597f3ce
-SHA1: b2eb4f6d25823ea98a69b58a68c5cdf55b408195
-SHA256: cbc69b1c2ce8323eec95e941178ec5afb9f2151286beb07b8bb82fdac4c5f73d
-SHA521: 258574e82bd8ae63f62c2d7c59e99585fdf32d6e70154b85609ee58e6a69db88070da8432ed710317dfd641e2d0b9029a54a33d41a59e288fd35bf10f2423d12
-
-Author: A3tweaks <auxo2@a3tweaks.com>
-Maintainer: xn117khdsh
-Name: Auxo 2 (iOS 7)
-Package: com.xn117khdsh.auxo2
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
-Conflicts: com.danyl.cccontrols (<= 1.0.2), kr.slak.cctoggles (<< 0.1-18), org.thebigboss.vertex
-Section: Tweaks
-Version: 1.1
-Architecture: iphoneos-arm
-Description: A fantasic re-imagined task switcher!
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
-Icon: file:///Library/PreferenceBundles/UminoPreferences.bundle/Auxo2@2x.png
-Filename: debs/auxo2_1.1.deb
-Depiction: https://imnotsatan.github.io/depictions/com.xn117khdsh.auxo2.html
-Size: 550580
-MD5sum: f78121e84174b701ae2b02e51a01648e
-SHA1: b9d7624bd4f099019b1fc94c21e23b2c3c487ed9
-SHA256: 539892b9a1436ef6cbc3385ceb8160a266c1f244922adef6469b6257ecf35605
-SHA521: 213307fc46381a55b37e33c9360c909c63983a77e6b9fa45779e3533400359649b9d6f056c22dc39a92cb1c070bee92a49ec7078a3c3adcb815d91bc77460ed9
-
-Author: A3tweaks <auxo2@a3tweaks.com>
-Maintainer: xn117khdsh
-Name: Auxo 2 (iOS 7)
-Package: com.xn117khdsh.auxo2
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
-Conflicts: com.danyl.cccontrols (<= 1.0.2), kr.slak.cctoggles (<< 0.1-18), org.thebigboss.vertex
-Section: Tweaks
-Version: 1.2.1
-Architecture: iphoneos-arm
-Description: A fantasic re-imagined task switcher!
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
-Icon: file:///Library/PreferenceBundles/UminoPreferences.bundle/Auxo2@2x.png
-Filename: debs/auxo2_1.2.1.deb
-Depiction: https://imnotsatan.github.io/depictions/com.xn117khdsh.auxo2.html
-Size: 598500
-MD5sum: 029d5c43d0056a02c277e4adb0daa9dc
-SHA1: 51c2e71359f43b295fc5de8ba1c59cb9cc1eba8c
-SHA256: 84ad41cde386a3893e8ede651ff20006e476d1c01bee91b96905517b4f91ac4a
-SHA521: 1224604ed7868d646394a53a37f53714bdf70dab41e5dc0b5f9fa98e98ede24b9aeecfdb2eedaf1e1df83709088e8b4ad78b3a7e4739408cf5ceb12fee75e638
-
-Author: A3tweaks <auxo2@a3tweaks.com>
-Maintainer: xn117khdsh
-Name: Auxo 2 (iOS 7)
-Package: com.xn117khdsh.auxo2
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
-Conflicts: com.danyl.cccontrols (<= 1.0.2), kr.slak.cctoggles (<< 0.1-18), org.thebigboss.vertex
-Section: Tweaks
-Version: 1.2.3
-Architecture: iphoneos-arm
-Description: A fantasic re-imagined task switcher!
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
-Icon: file:///Library/PreferenceBundles/UminoPreferences.bundle/Auxo2@2x.png
-Filename: debs/auxo2_1.2.3.deb
-Depiction: https://imnotsatan.github.io/depictions/com.xn117khdsh.auxo2.html
-Size: 862222
-MD5sum: 2a7257a275ad40d3bb63cd8ff12f16c4
-SHA1: 003f5a23c7517553a3bbd3ed92967544c70316ad
-SHA256: 23b94ec7b48ad73586c0753007e187eed1c26c64dc9593a7cebd37955b32e9fb
-SHA521: 082a7b025b17866f514e21c4de939ca6c66e5c319ca47b01234b1d0f6ccc4a710c54d64a940b285c0801361fd4f6992b4d56ed6d6f1b60dcb8433f86467cb835
-
-Package: org.xn117khdsh.auxo-le
-Version: 1.1k2
-Section: Tweaks
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001), applist (>= 1.5.9), preferenceloader (>= 2.2.2)
-Conflicts: com.rpetrich.sectional, com.repo.xarold.com.sectional, com.a3tweaks.auxo3ios9
-Architecture: iphoneos-arm
-Description: A modern app switcher in control center
-Name: Auxo Legacy Edition Cracked
-Author: A3Tweaks
-Maintainer: xn117khdsh
-Depiction: https://xn117khdsh.github.io/repo/depictions/?p=org.xn117khdsh.auxo-le
-Filename: debs/auxole_1.1k2.deb
-Depiction: https://imnotsatan.github.io/depictions/org.xn117khdsh.auxo-le.html
-Size: 437660
-MD5sum: 8c299bdc5c8e325cefdde66a60f446ed
-SHA1: e03f8c557828690732aa400fc84d2ec633f3b66e
-SHA256: 522eb8cec5c2058f18b964c7f44f7e865999e2548b60bc6144aabf358ced7523
-SHA521: 463580f7647d7b88ebe6245ca9f991691322fd499326b1e00c41a10b3650cbce36dfc52a87dad8a31dff31d929becbc55ec500eb1833b18c2b1df78a409e89ad
-
-Author: xn117khdsh
-Maintainer: xn117khdsh
-Name: Auxo Cracked (iOS 5-6)
-Package: org.xn117khdsh.auxo
-Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
-Section: Tweaks
-Version: 1.4-2
-Architecture: iphoneos-arm
-Description: A fantastic re-imagined multitasking bar!
-Depiction: https://xn117khdsh.github.io/repo/depictions/?p=org.xn117khdsh.auxo
-Homepage: https://xn117khdsh.github.io/repo
-Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
-Filename: debs/auxo_1.4-2.deb
-Depiction: https://imnotsatan.github.io/depictions/org.xn117khdsh.auxo.html
-Size: 1954518
-MD5sum: 0fc1c8f29e2532bcefe876666f4a09f7
-SHA1: df0cdcbb660e8cc6deab5107e92a573542fa27f7
-SHA256: ea564a9c2b8b21bb362c7c24f727e225071c97120ea4df8e35896f4e187df6d3
-SHA521: fae6f18713c473966e7fb69889aa84c757058e1a4cebfe4f0ff86a120a39b7220aace7fbaf815d2e552b1c30a8fd948c7e89b1f3de12501198edb3e77230df9c
-
-Package: vn.xn117khdsh.barrel
-Version: 1.8.1.1-1
-Section: Tweaks
-Maintainer: xn117khdsh
-Depends: firmware(>= 3.1), mobilesubstrate, gsc.armv7, preferenceloader
-Architecture: iphoneos-arm
-Description: This tweak adds graphical effects to your icon pages as you scroll through the homescreen. In the tweak's settings, you can choose between 18 different modes. New effects are still being developed. There is also an option to turn the effects off. Configure options from your Settings app. A Barrel settings app will be added to your home screen, all settings are entirely configurable from both the Barrel app and the native Settings app.
-Name: Barrel Cracked
-Author: Aaron Ash (Charybdis)
-Homepage: https://xn117khdsh.github.io/repo/
-Filename: debs/barrel_1.8.1.1-1.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.barrel.html
-Size: 1854142
-MD5sum: f3cf49061bced61f6f5ba6b43cfd43bf
-SHA1: 5560f5fbd76395b584411266f9409de4e290b141
-SHA256: 7809a225b35aac609c2fc9c13ac39c17b2f85582d60fe36b2dcc2f8ffb9b5d9e
-SHA521: bddc13dab7b29ba4a462e18dd643c7f737342eb9852ddd14329b7c938e5c43c003bc8c97dc01523aeeca656941c7ec6336cbc640338d9a5aa3c6957b3d0150c9
-
 Package: com.fuerza.N3Hacks
-Name: Freedom Edition Hacks +3
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Description: NOVA 3: Freedom Edition hacks by Fuerza for iOSGods.com Configure in settings.
-Maintainer: Fuerza
-Author: Fuerza
-Section: Tweaks
-Homepage: http://iosgods.com
 Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Fuerza
 Installed-Size: 1532
-Filename: debs/com.fuerza.N3Hacks.deb
-Depiction: https://imnotsatan.github.io/depictions/com.fuerza.N3Hacks.html
-Icon: https://imnotsatan.github.io/icons/com.fuerza.N3Hacks.png
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.fuerza.N3Hacks.deb
 Size: 1247112
 MD5sum: f94fbdc4589239f06a788ed97d534e9a
 SHA1: 5c10105d70aebe64151bb67ea50b777ab76ccfd3
 SHA256: 38635bbd7051a8c50c2688e90209af496751e77a032ce18a9f7b9b4c8629d04c
-SHA521: 00c4692c54ed08c43ca68fc1b7079ab25f9e1d4646bc25ddd2d550cd332bf79c3d6f225423b6c3d32c64081e365706528ccf0d036f41c992e62a6034928878c7
+Section: Tweaks
+Homepage: http://iosgods.com
+Description: NOVA 3: Freedom Edition hacks by Fuerza for iOSGods.com Configure in settings.
+Author: Fuerza
+Name: Freedom Edition Hacks +3
 
 Package: com.ioscheaters.mc4
-Name: Modern Combat 4 Cheats
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Description: Modern Combat 4 Cheats
-Homepage: http://ioscheaters.com
-Maintainer: Alcatraz
-Author: caoyin,Pkerr,& Prince7
-Section: iOS-Cheats
-Priority: extra
 Version: 1.1.0-9
+Architecture: iphoneos-arm
+Maintainer: Alcatraz
 Installed-Size: 52
-Filename: debs/com.ioscheaters.mc4.deb
-Depiction: https://imnotsatan.github.io/depictions/com.ioscheaters.mc4.html
+Depends: mobilesubstrate
+Filename: ./debs/com.ioscheaters.mc4.deb
 Size: 30264
 MD5sum: e5d6b4423c9d7f771bd1f085b700b34d
 SHA1: 6e97fc72db24f94ea86b0d96c432b96707fd22f0
 SHA256: bc48a562e565e07b5a93733680cad9c6a99a6d02eb72506be8cf8cf6cf6ddfc1
-SHA521: 5d23a6adcf1413c18887865816db0e506caf0c5fb5ef40f38b0102feeb37839cd02e859366e774e366b34909c3bb7c07ac94834cf4241d66f2c3ce35f02bcb35
+Section: iOS-Cheats
+Priority: extra
+Homepage: http://ioscheaters.com
+Description: Modern Combat 4 Cheats
+Author: caoyin,Pkerr,& Prince7
+Name: Modern Combat 4 Cheats
 
 Package: com.jamied360.ncsettings
-Priority: extra
-Section: Addons (NotificationCenter)
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Architecture: iphoneos-arm
 Version: 1.7.1
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
-Description: NCSettings is a sleek Notification Center toggle widget
-Name: NCSettings
-Author: JamieD360 <jamied360support@live.co.uk>
-Depiction: http://modmyi.com/info/ncsettings.d.php
-Homepage: http://modmyi.com/info/ncsettings.php
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
-Filename: debs/com.jamied360.ncsettings_1.7.1_iphoneos-arm.deb
-Depiction: https://imnotsatan.github.io/depictions/com.jamied360.ncsettings.html
+Filename: ./debs/com.jamied360.ncsettings_1.7.1_iphoneos-arm.deb
 Size: 469874
 MD5sum: bf8712b0dc555e0ddd05a688d02177d1
 SHA1: 9048c96d35173ba9baa703243b16854c2158584c
 SHA256: ed5285afc1e870fd4e5f8fca743794864c8b1cde89e337e3b44cb8e9d11b62f3
-SHA521: 5ac5f148140420a1be6dc975296a654ba2e6c60422f4ff2c9400083424fe14147e5bc29f595fe75360b13f86ac3079cf5951c96cb0d6dba73eb0dd0f96cc43d3
+Section: Addons (NotificationCenter)
+Priority: extra
+Homepage: http://modmyi.com/info/ncsettings.php
+Description: NCSettings is a sleek Notification Center toggle widget
+Author: JamieD360 <jamied360support@live.co.uk>
+Depiction: http://modmyi.com/info/ncsettings.d.php
+Name: NCSettings
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: com.linusyang.appsyncnew
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: Linus Yang
+Depends: mobilesubstrate
+Conflicts: com.linusyang.appsync, net.angelxwind.appsyncunified
+Provides: appsync
+Filename: ./debs/appsyncnew_1.4.deb
+Size: 6432
+MD5sum: fa30e5d60d803c53478d7cbc8597f3ce
+SHA1: b2eb4f6d25823ea98a69b58a68c5cdf55b408195
+SHA256: cbc69b1c2ce8323eec95e941178ec5afb9f2151286beb07b8bb82fdac4c5f73d
+Section: Tweaks
+Description: bypass signature check of installd
+Author: Linus Yang
+Name: AppSync New (iOS 6-12)
 
 Package: com.linusyang.ytbnoad
-Section: Tweaks
-Installed-Size: 344
-Maintainer: Linus Yang
-Architecture: iphoneos-arm
 Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: Linus Yang
+Installed-Size: 344
 Depends: mobilesubstrate
 Conflicts: me.alfhaily.adblockforyoutube
-Description: remove ads in Youtube app
-Name: YoutubeNoAd
-Author: Linus Yang
-Filename: debs/com.linusyang.ytbnoad_0.1_iphoneos-arm.deb
-Depiction: https://imnotsatan.github.io/depictions/com.linusyang.ytbnoad.html
+Filename: ./debs/com.linusyang.ytbnoad_0.1_iphoneos-arm.deb
 Size: 50654
 MD5sum: 39e43deaa545fc126991b2fe2343d4c4
 SHA1: 848ecf5a0343fe1ac5e4b1cda292d2485938f2a5
 SHA256: 58801323e9993fa855e063a887ed63f4b84ca966a6ca83459b3d5ca4e342843f
-SHA521: 5f4662d3ec533bc23fb15b77fe706d1d1e3d43039515523b21524c11946970062af5bedd415dbf505c86807ed1722a286c001e3b31a138ed94bacfc5a05634a2
+Section: Tweaks
+Description: remove ads in Youtube app
+Author: Linus Yang
+Name: YoutubeNoAd
 
 Package: com.modmyi.brightnessfixforios6
-Section: Tweaks
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Architecture: iphoneos-arm
 Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: mobilesubstrate
-Description: Restores the screen brightness level after a respring.
-Name: BrightnessFix for iOS 6
-Author: Jonas Gessner <ask.maxner@hotmail.com>
-Depiction: http://modmyi.com/info/brightnessfixforios6.d.php
-Homepage: http://modmyi.com/info/brightnessfixforios6.php
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
-Filename: debs/com.modmyi.brightnessfixforios6_1.0_iphoneos-arm.deb
-Depiction: https://imnotsatan.github.io/depictions/com.modmyi.brightnessfixforios6.html
+Filename: ./debs/com.modmyi.brightnessfixforios6_1.0_iphoneos-arm.deb
 Size: 3426
 MD5sum: f0001067f1e3ab52b74b9f22ea4af9c9
 SHA1: c5a29ee07d2e39ed7ae9aea56349da8337b50180
 SHA256: 6a4db1962a86371a55f3252cf9e7121423ef77346c4a4af1e20b7cf6a0b0f255
-SHA521: d74b0607242fd8f558d6f93d908ac089858baec90ffe6a6d09a69064cd937f50cb688918537f3d454f2479e974039738bc820edb4d55bf954029d1ca9ab5a7e9
-
-Package: com.piercingimpulse.verduraios
-Name: Verdura iOS [BETA]
-Architecture: iphoneos-arm
-Description: Tired to watch YouTube on Safari or Google Chrome on older device? Download YouTube 10.11.11546, spoof the version on the plist file and then get VerduraiOS! For the full guide on how to use it, please visit my GitHub page :)
-Maintainer: PiercingImpulse
-Author: PiercingImpulse
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Version: 0.0.2
-Installed-Size: 328
-Filename: debs/com.piercingimpulse.verduraios_0.0.2_iphoneos-arm.deb
-Depiction: https://imnotsatan.github.io/depictions/com.piercingimpulse.verduraios.html
-Size: 36258
-MD5sum: 8cb7896285b3e515476450cb36093c31
-SHA1: e4b349a7546415461ecb34060068c4e9222b9805
-SHA256: 99d60b9815e16c9e5d02d27c5090c7e724899fb5b7232f1981564652080123c4
-SHA521: 7536f3e65e9b9f9639d5f3d11204ec5f026b13b631d32d40b64d586e6f9b6c9fa8745f8d197eb92db39fb68fcd1e152a477c0b43d29d73e1571f6b0e1ed0a844
-
-Package: com.unthreadedjb.unthredera1n
-Name: Unthredera1n
-Version: 1.0
-Architecture: iphoneos-arm
-Pre-Depends: cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 2.1) | cy+model.ipod (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipad (= 1.1), firmware (= 4.3.4) | firmware (= 4.3.5) |  firmware (= 5.0) | firmware (= 5.1)
-Description: iOS 4.3.4 - 5.1 Untethered Jailbreak by @UnthreadedJB for iPhone 3GS / iPhone 4(GSM/CDMA) / iPod Touch(3G/4G) / iPad 1
-Conflicts: repo.weiphone.unthredera1n
-Replaces: com.unthreadedjb.unthredera1n
-Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
-Homepage: http://unthreadedjb.com/
-Maintainer: ichitaso
-Author: UnthreadedJB
-Section: System
-Tag: role::enduser
-Priority: standard
-Filename: debs/com.unthreadedjb.unthredera1n_1.0_iphoneos-arm.deb
-Depiction: https://imnotsatan.github.io/depictions/com.unthreadedjb.unthredera1n.html
-Size: 155366
-MD5sum: d8b325819101a28a7ac1b4de043a19f7
-SHA1: 2223f98388375e8d793feeb4cd63055118d9b2d7
-SHA256: 1928fbc5d180fffe651921d268929f916b02a0ab2b8b0ce53d8b774b218d0122
-SHA521: 9c98953dee98694b6c7f4fce977e3674e486f2017fdb0917dfe9b4cab05ce813898f9beb1695a083ab50acba3d03cbc598bbcf4c0cdd0f5de91eca5d08e0643a
-
-Author: Joe Jordan
-Maintainer: cooler3105
-Name: Nitrous
-Package: crk.gsm.nitrous
-Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5015), preferenceloader (>= 2.2.2), applist (>= 1.5.9)
-Breaks: io.pangu.xuanyuansword8 (<< 0.2)
-Section: Tweaks
-Version: 2.3-2
-Architecture: iphoneos-arm
-Description: Give JavaScript a speed boost with Nitro
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
-Filename: debs/crk.gsm.nitrous_2.3-2.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.gsm.nitrous.html
-Size: 110912
-MD5sum: fba4968269d1e22ffd56d244bd5ad4f9
-SHA1: 60aebc4487321f205abc1f87c29ad47d9a19ef5f
-SHA256: 2c0c415e08033a6b67f8bfac7b7a506cd1f4e5715ffe0178e7f2b60d1d08d47d
-SHA521: d9189edae3ab6e02a173b8f83474c868a6f0442af746d0f7805fbe693899aec227e4c54b6bd4151e7a7a1a6081ce7e3a7a1dde8f911276abc5d25e76115c67fb
-
-Package: crk.heinelt.ifile
-Name: iFile
-Version: 1.6.1-1
-Architecture: iphoneos-arm
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
-Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Section: System
-dev: carsten
-Filename: debs/crk.heinelt.ifile_1.6.1_1.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.heinelt.ifile.html
-Size: 3418640
-MD5sum: b6d62756ac6d81aac380b3f51a7b2e45
-SHA1: 99e9d2030f5b03d41451fb32f71c43ba05df8004
-SHA256: 59ea687b42b65150399213964a59478e8e65cb742459218ecbdae50f8c452245
-SHA521: 6aa373f3e55f5544ab87925c19bfd8ceb30e2845b194b5afed057daf32561eaa94483437e2d82f62260bf28c410271b0e98c53b64ae20cbc4aa5ada7a22738db
-
-Package: crk.heinelt.ifile
-Name: iFile
-Version: 1.7.1-1
-Architecture: iphoneos-arm	
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
-Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Section: System
-dev: carsten
-Filename: debs/crk.heinelt.ifile_1.7.1_1.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.heinelt.ifile.html
-Size: 5350456
-MD5sum: 0f9928237d49fbc837d243b79889a01e
-SHA1: 3852787958ad215b58416ed1a6b224f3fe7e17dc
-SHA256: 36c5bdceeb7f873fb0d4fd5fb8ff637e3898aa44c31b314e5a3b72523f9e651a
-SHA521: be444b02befc636b5a66ad31f82be0c66e42b478465b10f096ea8880af58b1ff2e390ae505103dceb9fe0682c2f8482fd3d29ad6b964848bbb9df4bdb52ce5c9
-
-Package: crk.heinelt.ifile
-Name: iFile
-Version: 1.7.2-2
-Architecture: iphoneos-arm	
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
-Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Section: System
-dev: carsten
-Filename: debs/crk.heinelt.ifile_1.7.2-2.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.heinelt.ifile.html
-Size: 5873914
-MD5sum: e19a94c898958073cabd1ecb5b5dc02e
-SHA1: ddf56d2a6694d89e386a0c506d50b504f3077f38
-SHA256: 676fb7196ce950dc9781d4fc6ea9ca9a13fd02e0d6d9d26fd49683ff2dcb7579
-SHA521: 19bfeb6f6916be9c39a300f017121f1b8ae89598029c9de8c8fbd028b84fe512107a663e2f25386bc10419a69c02dbd12b1ee9a7d3f762ece4502f787c216a50
-
-Package: crk.heinelt.ifile
-Name: iFile
-Version: 1.8.1-1
-Architecture: iphoneos-arm
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
-Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Section: System
-dev: carsten
-Filename: debs/crk.heinelt.ifile_1.8.1-1.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.heinelt.ifile.html
-Size: 7156334
-MD5sum: a456b48ee300ca30da26ae1f86e4f838
-SHA1: bf816bb2e23004293381ff7b4684bd1f7073f32b
-SHA256: 45b07e90a72d39bcf012001ea4d871be77c3fa1f18b34afabac968c6720103ec
-SHA521: cd62546f6ad39df999ac5b37ae06887a1bc8cf3f8d97939348b6bd1a5838ec9e387940a98fc4a054e4f3366cb8f5069709ff4ef007c2c1e71b93a0ff80763c92
-
-Name: Filza File Manager
-Package: crk.tigisoftware.filza.old
-Priority: optional
-Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
-Version: 1.5-211
-Architecture: iphoneos-arm
-Description: File Manager for iOS. Supports iOS 7+
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: TIGI Software <satashi2009@gmail.com>
-Section: Utilities
-Tag: purpose::uikit, ios7support::1, ios8support::1
-dev: satashi2009
-Icon: file:///Applications/Filza.app/Icon.png
-Filename: debs/crk.tigisoftware.filza.old_1.5-211.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.tigisoftware.filza.old.html
-Size: 7697656
-MD5sum: 685ba9a1f50a6d7d7b8df350867770c2
-SHA1: 2236e94569ca0a4691892f3f5010b4f7e0c7e52d
-SHA256: 510e50f29b0c07e8cb86535a34955bc8673d9190245136ce982cdf0089153e62
-SHA521: f9c55a1b7ac10fdec5f4942a343833a6cfd11ae493da8463fa715901dd5ad2bf1db637973804abd5bca8649f024412aaf1d7152007eca7004a2b36e8c295a5e9
-
-Name: Filza File Manager
-Package: crk.tigisoftware.filza.old
-Priority: optional
-Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
-Version: 2.0.0-129
-Architecture: iphoneos-arm
-Description: File Manager for iOS. Supports iOS 7+
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: TIGI Software <satashi2009@gmail.com>
-Section: Utilities
-Tag: purpose::uikit, compatible::ios7, compatible::ios8
-dev: satashi2009
-Icon: file:///Applications/Filza.app/Icon.png
-Filename: debs/crk.tigisoftware.filza.old_2.0.0-129.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.tigisoftware.filza.old.html
-Size: 9223668
-MD5sum: 566289a2dbb2f5078fe58d5fc1a952e6
-SHA1: 4cf083c76ee83f0d953cd312f0592b917d99528e
-SHA256: e772ecc198b1bd6279e2387d38ccafdcc92663c4431d87a0dad9b1767134758d
-SHA521: 832ff6db6566bc7bed3a40a3c8fd3cd5740db0e6d0e60d5c5b25bebc531a05b368fafebc089d2d24577deb06031efa8600455b692cd54fb26773affcd10f382c
-
-Package: crk.tigisoftware.filza.old
-Name: Filza File Manager
-Depends: zip, unzip, gzip, unrar, p7zip
-Version: 2.0.1-56
-Architecture: iphoneos-arm
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
-Maintainer: TIGI Software
-Author: TIGI Software
-Section: Utilities
-Filename: debs/crk.tigisoftware.filza.old_2.0.1-56.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.tigisoftware.filza.old.html
-Size: 9232458
-MD5sum: 156fbfe18ad3be78d8e04d04338c8c1f
-SHA1: 43e3e3b5499a1e0dcb0e678226b03fbb14d6700a
-SHA256: a5fe1e4028e1446603acde9e51a9db602fc2dff8d0621f043c0c1ff5924cd668
-SHA521: 81981a2b3f310cd1766ef96d54fe919c472b0598752e9a10811d65106344e232912ae179462b64668c3480bd10e1e247b89d5b259cbded3787873e6043c894e7
-
-Package: crk.tigisoftware.filza.old
-Name: Filza File Manager
-Depends: zip, unzip, gzip, unrar, p7zip
-Version: 2.0.2-1
-Architecture: iphoneos-arm
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
-Maintainer: TIGI Software
-Author: TIGI Software
-Section: Utilities
-Filename: debs/crk.tigisoftware.filza.old_2.0.2-1.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.tigisoftware.filza.old.html
-Size: 9252024
-MD5sum: 639e19ee8d86d560c9dad5bd0c4407f1
-SHA1: 9bbea7cbc89c3345635aa45887a0b402ab037856
-SHA256: c5f3ca073da1435cf7ea3136f05ab13ef8046839d9b08409f3831167274c24de
-SHA521: 3c9eaadba5835e99a3229fa9a48e774f8812392ea2344ad19fb527abe673d5275d1fa7189fd02211a501de673da6d36522f0fc0fa8640410811e805b8c5d1334
-
-Package: crk.tigisoftware.filza.old
-Name: Filza File Manager
-Depends: zip, unzip, gzip, unrar, p7zip
-Version: 2.0.2-7
-Architecture: iphoneos-arm
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
-Maintainer: TIGI Software
-Author: TIGI Software
-Section: Utilities
-Filename: debs/crk.tigisoftware.filza.old_2.0.2-7.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.tigisoftware.filza.old.html
-Size: 9285564
-MD5sum: f3c55414d3327265e049781d200d6f33
-SHA1: 34c3519dc8323319e27fe10f223cf4c250f731f6
-SHA256: 1ecd3206dcfe611961702dd06477e9988a8b0a2a58c8f6309097450aca4b6f17
-SHA521: 3d239f04834e51283210672378ff385e09fa5ed22e04ed54dc3a4345bf85c7b77aa7c2f0a70efec8460a614caeaccb80d7b5e211dfafc33fcce8389c598a21c1
-
-Package: crk.tigisoftware.filza.old
-Name: Filza File Manager
-Depends: zip, unzip, gzip, unrar, p7zip
-Version: 2.1.0-2
-Architecture: iphoneos-arm
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
-Maintainer: TIGI Software
-Author: TIGI Software
-Section: Utilities
-Filename: debs/crk.tigisoftware.filza.old_2.1.0-2.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.tigisoftware.filza.old.html
-Size: 9301164
-MD5sum: ddbd5663cdfa32875f9ebb9fc77c1ffb
-SHA1: fad69dbd8dad25580b1a9b9bb1d9cbca06538531
-SHA256: 42604ccb92759f2d3cb444fcacc60c7b24cc6c41ebb504aefd9102a03e190a09
-SHA521: fd4d5f09909a1ab39ece460a89ca156b2dc8ef44dcfba450b762c0eaf8d81368683af8ec9de7a2d6c7c67bac4c9693c92cb045c9e18e93cf685f315b399dc59e
-
-Package: crk.tigisoftware.filza.old
-Name: Filza File Manager
-Depends: zip, unzip, gzip, unrar, p7zip
-Version: 3.0.0-73
-Architecture: iphoneos-arm
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
-Maintainer: TIGI Software
-Author: TIGI Software
-Section: Utilities
-Filename: debs/crk.tigisoftware.filza.old_3.0.0-73.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.tigisoftware.filza.old.html
-Size: 9398212
-MD5sum: 0cba839b09eb21671d5aab83623879b7
-SHA1: 1607ced92679e7ab5f9a88c240e6ecc9ea9c586e
-SHA256: 75503e394723ee322ce6c290745b3ae386d8804f7c753c56fec49a8eab7c7d85
-SHA521: e7aa1fefcf4df663511f691d961562294ed262f8ff77deacb65bc0a558a3d3cc793663f5efa23f09a28a2562e17e993dbae649dab0f817d2d7e9b6f88416bbe1
-
-Package: vn.xn117khdsh.cydown
-Version: 6.8.2
-Section: Tweaks
-Maintainer: xn117khdsh
-Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Description: Cydia Download Manager and Extra Features!
-Name: CyDown Legacy
-Author: julioverne
-Depiction: https://xn117khdsh.github.io/repo/depictions/?p=vn.xn117khdsh.cydown
-Homepage: https://xn117khdsh.github.io/repo/
-Filename: debs/cydown_6.8.2.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.cydown.html
-Size: 1402158
-MD5sum: 38eb9f4a1ac1a680437c61f31a89737b
-SHA1: 79e8c233646f2084d1bd3cdd2bb28397fd2dd54a
-SHA256: 67404171579dea81c6de8bfe5c2df93f38859dea2221bb6e8a7a8d7413918a00
-SHA521: 6a6bfdf7373e6e605978bd71e703020defb835456d4651b613874b8152512736034df7029204deacc49a8f99d0c2c3d5e24f23ffc2cf49833c25dc06b121a1c7
-
-Package: com.xn117khdsh.deezelife
-Name: Deezelife
-Version: 0.2-1
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Author: julioverne
-Section: Tweaks
-Description: Deezer Fully Premium Features, Unrestrict Music... Requires Deezer App (AppStore)
-Maintainer: xn117khdsh
-Filename: debs/deezelife.deb
-Depiction: https://imnotsatan.github.io/depictions/com.xn117khdsh.deezelife.html
-Size: 43692
-MD5sum: 6058114a70678f0847bf2d1d451384b0
-SHA1: 6c010a1cf4b9f7979e2a1b2f5f6e1eea7bf3f933
-SHA256: f827faf24de6d29cb9c44ba5a0e87457d673926074fb94a77cada8852d10efa3
-SHA521: 99eb85be3a115d713a5cf8f57df0addf11b17ec1aab2d2e4fbc67b6b0a1ae3c7c5d917287c718edb60e1532ad6cb151994a646c5506719d431012b6072a8a8ed
-
-Package: vn.xn117khdsh.fiveicondock
-Name: Five Icon Dock (iOS7)
-Version: 1.0
-Section: Tweaks
-Maintainer: xn117khdsh
-Architecture: iphoneos-arm
-Description: Five Icon Dock for iOS7
-Depends: firmware (>= 7.0), mobilesubstrate 
-Conflicts: com.saurik.iphone.fid, com.gmoran.fiveicondock
-Author: fr0st
-Depiction: Five Icon Dock for iOS7
-Filename: debs/fiveicondock7.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.fiveicondock.html
-Size: 3286
-MD5sum: d91b93620a17e3a0af771ac5afb0726f
-SHA1: bc393e2d7cdf53d18354e75e7dbb78ef14bb16bd
-SHA256: f6705728be7dab28b9bb0b138bfe77d0296e682f60ff536062086d3b428b58c4
-SHA521: cfa01e67267465332b06515771b601635d052b18e730716aa19f55b84f418feef9be28445df5b8d4cb063d26d6eb5dc93e6394e6220e91cb12c9f935df50a27b
-
-Package: crk.rpetrich.fullforce
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Architecture: iphoneos-arm
-Depends: firmware (>= 6), mobilesubstrate, preferenceloader (>= 2.2), applist (>= 1.5.9~beta1), cy+model.iphone | cy+model.ipod
-Description: Force applications to show in fullscreen mode
-Name: FullForce for Phone
-Homepage: http://rpetri.ch/cydia/fullforceforphone/
-Depiction: http://rpetri.ch/cydia/fullforceforphone/
-Author: Ryan Petrich <rpetrich@gmail.com>
-Conflicts: com.kindadev.goodfit
-Replaces: com.kindadev.goodfit
-Version: 1.1.3~beta1
-Filename: debs/fullforce_v1.1.3_beta1.deb
-Depiction: https://imnotsatan.github.io/depictions/crk.rpetrich.fullforce.html
-Size: 108368
-MD5sum: 5f9e7c0557e20a4b28e5cdf388489883
-SHA1: 8d8cdfd14968e16ac0161c742fbedd2741125093
-SHA256: f96d99f0b74944db0a0eb455d67ace1d25248ae885a28a3f8e4a4357b3e51991
-SHA521: 1ff4235a03949dda1c699ffd24b908d50c8495bf17ba21aaa6b3e2a90a3f9eefaaf629a21fbdd999727b104eab7a06d26b33036f5d60763f214341cf994fc776
-
-Package: vn.xn117khdsh.iap
-Version: 0.8-1
-Section: Tweaks
-Maintainer: xn117khdsh
-Depends: mobilesubstrate, firmware (>= 3.0), firmware (<< 6.0)
-Architecture: iphoneos-arm
-Installed-Size: 128
-Description: Free inapp purchases for old iOS
-Name: iAP Cracker (iOS 3-5)
-Author: Appstore
-Filename: debs/iapcracker.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.iap.html
-Size: 65834
-MD5sum: b17c11f5cad23752c532a5c705d3c7a9
-SHA1: 672d2d5488fa88933d144c5a0b004bf83042cb95
-SHA256: 1c7020a6544b504fa2c04a5e1cd94f77da2d9bc47c27e18a3f76336592edeeec
-SHA521: 7700a5fab132aa70bc73a62070da14293d130efbb21f30210924929bb86be3da3624778336aadd9ee6f0addd762e4065b4a633c14b4ffc3132c9dfff9b1f0bd2
-
-Architecture: iphoneos-arm
-Author: xn117khdsh
-Depends: firmware (>= 4.0)
-Depiction: https://xn117khdsh.github.io/repo/depictions/?p=com.xn117khdsh.icleanerpro
-Description: The first real iOS system cleaner & optimizer
-Homepage: https://xn117khdsh.github.io/repo
-Maintainer: xn117khdsh
-Name: iCleaner Pro Cracked
-Package: com.xn117khdsh.icleanerpro
-Pre-Depends: apt, findutils, shell-cmds
-Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, vn.gsm.icleanerprobeta
-Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, vn.gsm.icleanerprobeta
-Section: Utilities
-Version: 7.6.4
-Filename: debs/icleanerpro_7.6.4_regged.deb
-Depiction: https://imnotsatan.github.io/depictions/com.xn117khdsh.icleanerpro.html
-Size: 4747008
-MD5sum: 921757ccb46d6dc0b5bf5a61b896c52a
-SHA1: feb6587625a453ed6de26df3ce56163703f7a241
-SHA256: 209a85cb4150cb94ea069e5a428b2b1679d6fbdeb2555c578b2a995e284a3249
-SHA521: 8a125387edee911020956abf738015da50314cf8391fa7370efa08cf609f53767ba44d5f44c7331b854c9370d8251220e0ca0adb58fdf12aaebf5806eece1bb1
-
-Package: vn.xn117khdsh.igameguardian
-Version: 3.1.0
-Section: Utilities
-Maintainer: xn117khdsh
-Depends: firmware (>= 5.0), firmware (<< 7.0)
-Architecture: iphoneos-arm
-Description: iGameGuardian is a game cheating engine for iOS 5.x/6.x.
-Name: iGameGuardian
-Author: Guardian
-Icon: file:///Applications/iGameGuardian.app/pug_57.png
-Filename: debs/igameguardian.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.igameguardian.html
-Size: 260140
-MD5sum: dc22cd229adaab4be89fbfed7732bb66
-SHA1: e4309d9f31896ec1baa3ffca4a78086740b2a076
-SHA256: 15f0d31dba709adb66a8bf0db3e0b6740083cb0c9c677a85a148903f4996eda8
-SHA521: 5d55c649912c08c6c1c90e748dfdd8730d104991273406759f0a7c95029de1df89dcfb828b55e87339769693b1385f6acfed39f4a480b053e9925ec73e051d97
-
-Package: io.pangu.axe7
-Priority: optional
-Section: System
-Maintainer: Pangu <axe@pangu.io>
-Architecture: iphoneos-arm
-Version: 0.3
-Depends: coreutils-bin, firmware (>= 7.1), firmware (<= 7.1.2)
-Description: untethered jailbreak based on pangu exploits 
-Author: Pangu <axe@pangu.io>
-Name: Pangu 7.1-7.1.x Untether
-Depiction: http://cydia.saurik.com/info/io.pangu.axe7/
-Filename: debs/io.pangu.axe7_0.3_iphoneos-arm.deb
-Depiction: https://imnotsatan.github.io/depictions/io.pangu.axe7.html
-Size: 107276
-MD5sum: 3d86ef34bda9287e6081dda95b7593dd
-SHA1: 4267988b1bfdc4578dced131667ccca8eb6eb986
-SHA256: db7e412fd629802e26c8aec481cdca9cfe0a3bc33c7a4cc243351245da5cb172
-SHA521: 74a2503e10172785b642b21801debd93c3862c81523b7ae53cd23c4b17aaef736df0a466c47caa03fc10fe75a5e7888fcc8f5b70adfad2fb5ddbba0a6b4a8e22
-
-Package: io.pangu.xuanyuansword8
-Priority: optional
-Section: System
-Maintainer: Pangu <axe@pangu.io>
-Architecture: iphoneos-arm
-Version: 0.5
-Depends: coreutils-bin, firmware (>= 8.0), firmware (<= 8.1)
-Description: untethered jailbreak based on pangu exploits 
-Author: Pangu <axe@pangu.io>
-Name: Pangu 8.0-8.1 Untether
-Depiction: http://cydia.saurik.com/info/io.pangu.xuanyuansword8/
-Filename: debs/io.pangu.xuanyuansword8_0.5_iphoneos-arm.deb
-Depiction: https://imnotsatan.github.io/depictions/io.pangu.xuanyuansword8.html
-Size: 456978
-MD5sum: 4aaf6a47faf4896d73955980eaa9c078
-SHA1: c6b1673b646a5a72a92232210bf3fb4c44dba9ce
-SHA256: 16ebfa004be2825288121560a73b67729fcc6721e6fca83c7963db812d934e96
-SHA521: e3e050ecad906c42760abeef308499402be3b2a10c5369691a2251653ca8bdddc55c67006fb4db95a21dd6030f379421379870f9bb511826d1f582d3165c2112
-
-Package: ru.anonz.jigtyhack
-Name: JigtyHack
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Description: Jigty Jigsaw Puzzles hack for iOS. Including: Unlock all packs, free premium upgrade and "buy" expired offer and special offer packs
-Maintainer: xn117khdsh
-Author: Anonym0uz
-Section: Tweaks
-Version: 0.0.1-2
-Installed-Size: 200
-Filename: debs/jigtyhack_0.0.1-2.deb
-Depiction: https://imnotsatan.github.io/depictions/ru.anonz.jigtyhack.html
-Size: 6044
-MD5sum: ab0a38cf477907ff13f5aa590ee7ee97
-SHA1: 92c4cb44d9aef021a371b4090f376ed126286dbe
-SHA256: 62aa78ef671e7f0ae2b6f48418f1b6ca3f0c669c36352f3a40850105a15322ba
-SHA521: 66bb9b123d4efd7510f8b83454701647c2ba8def839d829acd037b7702abacfd687a7e38ed490b03276341cf56d7ffeedb33f742dc1fc5402e66718fbd340375
-
-Package: vn.gsm.localiapstore
-Version: 1.4-2
-Priority: optional
-Section: Tweaks
-Maintainer: anon dev
-Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Conflicts: anondev.LocalIAPStore
-Architecture: iphoneos-arm
-Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
-Name: LocalIAPStore
-Author: anon dev
-Filename: debs/localiapstore_1.4-2_test.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.gsm.localiapstore.html
-Size: 70798
-MD5sum: 167c1468039e794b1a19b133b10f23ea
-SHA1: 8ba65b5061ba6b6a03a64571a5a76f2a912c03ff
-SHA256: edde6419d6737d5dc03f3c7ff3fee57c90d7c5fe883b2627040ee69b57bb7615
-SHA521: 82741c4b3a5037d10c8ff63946a289226532c44d82bf4bc2c0ce84160bd30b9ffba9aebcc415850e88e6030369aacd8deb9cdc7c42ab3f3a58b61064612efc2c
-
-Package: mobileterminal-applesdk7
-Name: MobileTerminal (iOS7)
-Version: 520-2(1)
-Architecture: iphoneos-arm
-Description: MobileTerminal with iOS 7 + 4” screen support
-Depiction: MobileTerminal with iOS 7 + 4” screen support
-Maintainer: xn117khdsh
-Author: Fr0st
-Section: Terminal Support
-Filename: debs/MobileTerminal7.deb
-Depiction: https://imnotsatan.github.io/depictions/mobileterminal-applesdk7.html
-Size: 243696
-MD5sum: 0d201baea20aef2847afe5fa7c8f9edd
-SHA1: 7c9fa876c08dc110ba943739b9f58e95d53f53c6
-SHA256: 3d3cfd2a558124240ceab37290d804dc8c20450d7aadf31ac5eafb66e99f9256
-SHA521: 7270a90277324fddaf07479aa1de7808000b847c189489456f8a7767ccb7f321f6bf53ee779b5247bcea3d07b523210bf1bece0d127a942b90b080b2707d0fb7
-
-Package: net.angelxwind.sandboxpathfixer
-Name: Sandbox Path Fixer
-Depends: mobilesubstrate, firmware (>= 8.0), com.rpetrich.rocketbootstrap (>= 1.0.2), net.angelxwind.karenprefs, applist
-Architecture: iphoneos-arm
-Description: Fixes sandbox paths for certain apps that are broken in iOS 8.0 and above
-Maintainer: Karen
-Author: Karen
-Section: Tweaks
-Homepage: https://cydia.akemi.ai/
-Depiction: https://cydia.akemi.ai/?page/net.angelxwind.sandboxpathfixer
-Version: 1.5
-Filename: debs/net.angelxwind.sandboxpathfixer.deb
-Depiction: https://imnotsatan.github.io/depictions/net.angelxwind.sandboxpathfixer.html
-Size: 23362
-MD5sum: f87ec8c95982799e98455e58f75cbcea
-SHA1: 9d129cb97b2f9c8da09df0fa283a3be877d9ed5b
-SHA256: 2e46b73bd9eccecf062f8942b16f7e6825ce71ca3b1840c4b53c4cd7d61c1cf4
-SHA521: cfba96a4eb466ce2f5e730b7ad5ed1494a4917aaa6a6876e404dd90f6f0496c92812b1599e4f0abef696819de1f46477a9579a454413d3745aebf1bc1a019140
-
-Name: Stashing for #etasonJB (8.4.1)
-Package: net.angelxwind.stash841
-Version: 1.0
-Description: Enables stashing on #etasonJB (iOS 8.4.1)
-Section: System
-Depends: net.tihmstar.etasonuntether (>= 1.1.0), firmware (= 8.4.1)
-Architecture: iphoneos-arm
-Author: Karen
-Homepage: https://cydia.angelxwind.net/
-Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash841
-Maintainer: Karen
-Filename: debs/net.angelxwind.stash841_fixed.deb
-Depiction: https://imnotsatan.github.io/depictions/net.angelxwind.stash841.html
-Size: 1190
-MD5sum: 4de38a9613e0657d1192c21e4e57b729
-SHA1: c12d8fce079e743dbcc62803ce77f44253c74a6b
-SHA256: 562a26cd0c16da19a875d493ff6f1697a03fe4d12f276a71da6ae9c6c257808b
-SHA521: ca260873695a1a29c9be12258dd04a5234e62074942e68540f5641fd8225c69ceb39539184da2a891a3e378e8d1e366a1a5544fb73b65c273ab6f325db532cd0
-
-Name: Stashing Fix for Phœnix (9.3.5)
-Package: net.angelxwind.stash935fix
-Version: 1.0
-Description: Fixes stashing on Phœnix (iOS 9.3.5)
-Section: System
-Depends: firmware (= 9.3.5)
-Architecture: iphoneos-arm
-Author: Karen
-Homepage: https://cydia.angelxwind.net/
-Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash935fix
-Maintainer: Karen
-Filename: debs/net.angelxwind.stash935fix.deb
-Depiction: https://imnotsatan.github.io/depictions/net.angelxwind.stash935fix.html
-Size: 1166
-MD5sum: 7a1dd0952b05fee830ba665b356edd89
-SHA1: 350949d26da9d73d9ae0d65934f800e714ebf37b
-SHA256: eb7171ba51339889d6e7ec7e87141ddcc3c52ad26dcd557b8eb827cfc6ddda7f
-SHA521: f918d8bb8658c76fc9644969931cd44f26c82d423341ef11f9c3426985c7df0e9b0a1ef2c3a17ba858e03dfff14bf335f11e29331dad09af07f06977fa9fcf99
+Homepage: http://modmyi.com/info/brightnessfixforios6.php
+Description: Restores the screen brightness level after a respring.
+Author: Jonas Gessner <ask.maxner@hotmail.com>
+Depiction: http://modmyi.com/info/brightnessfixforios6.d.php
+Name: BrightnessFix for iOS 6
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
 Package: com.pNre.noannoyance
-Name: NoAnnoyance (iOS 7)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 7)
-Architecture: iphoneos-arm
-Description: Tame iOS annoying alerts!
-Maintainer: pNre <pnre00+noannoyance@gmail.com>
-Author: pNre <pnre00+noannoyance@gmail.com>
-Section: Tweaks
-Icon: file:///Library/PreferenceBundles/NoAnnoyancePrefs.bundle/NoAnnoyance@2x.png
 Version: 0.1.3-1
-Filename: debs/noannoyance7.deb
-Depiction: https://imnotsatan.github.io/depictions/com.pNre.noannoyance.html
+Architecture: iphoneos-arm
+Maintainer: pNre <pnre00+noannoyance@gmail.com>
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7)
+Filename: ./debs/noannoyance7.deb
 Size: 30872
 MD5sum: 54c3799abd4e7b1a6752e9bee989a357
 SHA1: d18410a935aa874c9de7137a1cd48c6797985786
 SHA256: 5c2f7d6c3dfe2b8fd30c45f082b1a13d3242987944ff75573cb61ff5dc1224e0
-SHA521: 5a47589ce7d76e93fd3fd4fed2a4ff213ee445c37deb5934e4671991a31c1c5c8f7a00307424f0aaddaf80bdc622b0e1144f91dd34d54beb70452aab99945b7c
-
-Package: net.angelxwind.mikoto
-Name: mikoto
-Description: Comprehensive iOS System/App Store App customisation suite
 Section: Tweaks
-Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.0-1), net.angelxwind.karenprefs (>= 1.4), net.angelxwind.karenlocalizer
-Replaces: 
-Architecture: iphoneos-arm
-Author: Karen/あけみ (angelXwind) <karen@angelxwind.net>
-Homepage: https://cydia.angelxwind.net/
-Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.mikoto
-Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
-Icon: file:///Library/KarenRepoIcons/net.angelxwind.mikoto.png
-Conflicts: com.xcxiao.simplelsios10
-Version: 4.0.3
-Installed-Size: 15548
-Filename: debs/nodelete-net.angelxwind.mikoto.deb
-Depiction: https://imnotsatan.github.io/depictions/net.angelxwind.mikoto.html
-Icon: https://imnotsatan.github.io/icons/net.angelxwind.mikoto.png
-Size: 11582804
-MD5sum: e1f49254a62ed949fd6d7d44c0b01043
-SHA1: 5717d7348bd1a23cc7bb94f659704409a21eeb8a
-SHA256: ea31dd47acfa2c397664ffb19e8bcc130d356d37fad49ccd6c45ebb32f06de69
-SHA521: 7d1ad1d60794c84083cc19539585692d7349a921114ba789b809b1aa6015101f505be5523e615a51b88ee84d840a7293a0ea8c85f9ad280a5122dd63f8909ade
+Description: Tame iOS annoying alerts!
+Author: pNre <pnre00+noannoyance@gmail.com>
+Icon: file:///Library/PreferenceBundles/NoAnnoyancePrefs.bundle/NoAnnoyance@2x.png
+Name: NoAnnoyance (iOS 7)
 
-Package: vn.xn117khdsh.protube2
-Version: 2.2.3
+Package: com.piercingimpulse.verduraios
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: PiercingImpulse
+Installed-Size: 328
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.piercingimpulse.verduraios_0.0.2_iphoneos-arm.deb
+Size: 36258
+MD5sum: 8cb7896285b3e515476450cb36093c31
+SHA1: e4b349a7546415461ecb34060068c4e9222b9805
+SHA256: 99d60b9815e16c9e5d02d27c5090c7e724899fb5b7232f1981564652080123c4
 Section: Tweaks
-Maintainer: xn117khdsh
-Depends: firmware(>= 5.0), mobilesubstrate(>= 0.9.5000), preferenceloader
-Architecture: iphoneos-arm
-Description: adds power features to Google's YouTube App
-Name: ProTube Extension for YouTube
-Author: Jonas Gessner
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=protube2Dp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=protube2Dp
-Filename: debs/protube2_2.2.3_yt.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.protube2.html
-Icon: https://imnotsatan.github.io/icons/vn.xn117khdsh.protube2.png
-Size: 2688956
-MD5sum: 7934f3db8a96638fd192e0c44af67642
-SHA1: d4e772d1b465ddf1c1c62acde717c289308a518c
-SHA256: 840c45f84f7d56435e9d7dc9ac0c133be2786c4b177a8056a79f35baf035be79
-SHA521: 806d94f21aed817da91cb2b50f622c429772e626c2a15eaaa6cdc108011b0ad94e55d067713ea08cbcd0d695e812e9ea7167fc2f4bd0111c8d692515c6c403fd
+Description: Tired to watch YouTube on Safari or Google Chrome on older device? Download YouTube 10.11.11546, spoof the version on the plist file and then get VerduraiOS! For the full guide on how to use it, please visit my GitHub page :)
+Author: PiercingImpulse
+Name: Verdura iOS [BETA]
 
-Package: vn.xn117khdsh.quicklock2
-Version: 1.0-2
-Section: Tweaks
-Maintainer: xn117khdsh
-Pre-Depends: firmware (>= 4.0)
-Architecture: iphoneos-arm
-Description: Lock Screen quickly from SpringBoard by clicking on an icon.
-Name: QuickLock 2 (iOS 4-5)
-Author: Zotyo 
-Depiction: Lock Screen quickly from SpringBoard by clicking on an icon.
-Filename: debs/quicklock2_1.0-2.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.quicklock2.html
-Size: 14988
-MD5sum: 3ddaa5fd79920a0bb121c36955c331d1
-SHA1: e4982a465a14eaaa76880e98477ea48edce9c242
-SHA256: 1f7775413acc2b80d275f5f1b70587e6253ca60dc9ef7e917e8c72c66fa6f16c
-SHA521: fd686df80b3366c95f16bb2676e8287bbfa537d89f877ca8b810d7576fb8794fa206c1fea7df768151f4b71ff9ab1db0fe855ab34a1a3156655e940af14053cd
-
-Package: vn.xn117khdsh.quicklock3
+Package: com.unthreadedjb.unthredera1n
 Version: 1.0
-Section: Tweaks
-Maintainer: xn117khdsh
-Depends: firmware (>= 6.0)
 Architecture: iphoneos-arm
-Installed-Size: 49
-Description: Lock Screen quickly from SpringBoard by clicking on an icon.
-Name: QuickLock 3 (iOS 6)
-Author: Zotyo 
-Depiction: https://xn117khdsh.github.io/repo/depictions/?p=vn.xn117khdsh.quicklock3
-Homepage: https://xn117khdsh.github.io/repo/
-Filename: debs/quicklock3_1.0.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.quicklock3.html
-Size: 60572
-MD5sum: 681dc8c3fa06b21b49a6324e54bb09b9
-SHA1: 33e6ca8e873bada8e80b6cb388551a7f87e5c0bc
-SHA256: 17363fadf8a22765ebe1e47fbba7b7cb331affb3eedf346b8959d81664968dec
-SHA521: 2a709464f01279fb32d08a3056246c4d3841ee4b6fd0ae48b06f99b09950b2d6bd9c38468fddae64889303c388068ee4b15d7a26125fc7f904f911aeacee1eeb
-
-Package: vn.xn117khdsh.quicklock46
-Version: 0.0.1-18
-Section: Tweaks
-Maintainer: xn117khdsh
-Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 7.2)
-Conflicts: vn.xn117khdsh.quicklock3
-Architecture: iphoneos-arm
-Installed-Size: 348
-Description: Just touch to lock your device! This package supports iOS 6 and iOS 7.x
-Name: QuickLock46 (iOS 6-7)
-Author: deVbug
-Depiction: https://xn117khdsh.github.io/repo/depictions/?p=vn.xn117khdsh.quicklock46
-Homepage: https://xn117khdsh.github.io/repo/
-Filename: debs/quicklock46_0.0.1-18.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.quicklock46.html
-Size: 55654
-MD5sum: 9c82ceae269a87b75f679f1bc9a3e9dd
-SHA1: 7826d785d8858fcc127557c2f35fc416bbe06b33
-SHA256: 541b51794ec30eaf9e9eef813a82949b20f4bfeea1f37c7e319eee5cf74e24a4
-SHA521: 5632f634fc51956355c2e23e2472f44be49cdf86840062c22ef8468182db62c8f90f741279788912ac6e7776c0c01c6e7f0651ad1afdd72a42692a9554fb177a
-
-Author: xn117khdsh
-Maintainer: xn117khdsh
-Name: SBInfoGrabber for Auto App Killer
-Package: vn.xn117khdsh.sbinfograbber
-Depends: mobilesubstrate, firmware (>= 4.0)
-Conflicts: com.iptm.sbinfograbber
-Section: Tweaks
-Version: 1.1.5-1
-Architecture: iphoneos-arm
-Description: Support library for Lockdown Pro, Lite, etc. Required for Auto App Killer.
-Homepage: https://xn117khdsh.github.io/repo/
-Filename: debs/sbinfograbber_1.1.5-1.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.sbinfograbber.html
-Size: 9054
-MD5sum: bb7e5b5ce0e7055d2e78b6576318cb50
-SHA1: ff604a3131fe6407722d4175b1c940b50d7bc647
-SHA256: b4299fd8a8c53c980ef11105935bdcdbb499696a3d399aad55da3b49464dd097
-SHA521: 0ef6d3c6cf66e035cb77988aff8271e28efa9f0eff1a01e32fe2dd76b168b656cca692a52eaccc12b8869170f01e212e5aaf6746a1dc4c8990562a3d7b9349ff
-
-Maintainer: gdimait <http://siriport.ru/forum/user/1-gdimait/>
-Name: SiriPort (Original)
-Package: original.siri
-Section: Siri
-Version: 5.4.0-0finalRev2
-Icon: file:///var/siriport.ru/icon64.png
-Pre-Depends: firmware (>= 5.1)
-Priority: standard
-Conflicts: com.chpwn.spire, siri.by.siriport.ru, russian.siri.by.siriport.ru.511, gsc.ipad, original.siri.by.siriport.ru.511
-Depends: preferenceloader, mobilesubstrate, com.ericasadun.utilities
-Architecture: iphoneos-arm
-Description: Best Original Siri iOS 5.1.X
-Depiction: http://aptinfo.siriport.ru/repo_files/pages/siriport_for_5_1.html
-Author: Dmitriy Garitskiy <http://siriport.ru/>
-Sponsor: SiriPort.Ru <http://siriport.ru/forum/user/1-gdimait/>
-Homepage: http://siriport.ru
-Tag: purpose::extension
-Filename: debs/SiriPort_Original_iPhone_iPod_repo_siriport_ru_5_4_0finalRev2.deb
-Depiction: https://imnotsatan.github.io/depictions/original.siri.html
-Size: 99551876
-MD5sum: cdca9fba89058391b9e83513e0145b7b
-SHA1: e0e573e6d2da4576c8837946c46e7630f8a4735e
-SHA256: dbc01a914768a4db87b996994431f2977756abc471321c8e573f9e58a7bf60cf
-SHA521: da0be5bcd8986945ba3ff09e8d0a2b95aaf844371e9e74ac520b63f4e647a7638c3a644c80547d0111a421f797574e31319a486839a721be4e975ec21c603a67
-
-Package: us.gsm.appsync70plus
-Version: 5.8
-Section: Tweaks
-Maintainer: Linus Yang, Karen Tsai
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 10.0)
-Conflicts: com.linusyang.appsync, net.angelxwind.appsyncunified, com.linusyang.appsyncnew
-Provides: appsync
-Replaces: com.linusyang.appsync, net.angelxwind.appsyncunified, com.linusyang.appsyncnew
-Architecture: iphoneos-arm
-Description: AppSync Unified allows you to sync and install unsigned iOS applications. Works on iOS 5 and above.
-Name: AppSync for iOS 6, 7, 8, 9
-Author: Linus Yang, Karen Tsai
-Filename: debs/us.gsm.appsync70plus_5.8.deb
-Depiction: https://imnotsatan.github.io/depictions/us.gsm.appsync70plus.html
-Size: 163350
-MD5sum: 0d8e8030909d744442846482733f7ab3
-SHA1: 28a0c0bf0566644e392d393c327c4366c68ee91b
-SHA256: 8a419d1b71e17ab142a11538403aa397da3915c3a8ac9ca41fa3f927aa55b19f
-SHA521: c4dc550bccf61d1e1fa7ebc0155c4f22b1400cf33ff2c3d9801771916e3cdf904756c3813ac20fd8101a951381fc0518875cb50ba10346ce9ac2a7fb22e5ebba
-
-Package: us.gsm.powersaver
-Name: Power Saver Mode
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Description: Adds a power-saving mode to iOS that disables some system settings to extend battery life. Adds a link to the Battery Usage section to the main settings page, and adds the power saving mode button to the top of the battery usage view. Compatible with iOS 8.
-Maintainer: Elijah Frederickson
-Author: Elijah Frederickson
-Section: Tweaks
-Version: 0.0.1-68
-Filename: debs/us.gsm.powersaver_0.0.1-68.deb
-Depiction: https://imnotsatan.github.io/depictions/us.gsm.powersaver.html
-Size: 137602
-MD5sum: 8efba2b6747eb1dff6fbb672c89b3b69
-SHA1: dbf4c01a123506476189126496bb31c391253e05
-SHA256: a86d3f6ea11289ca66e7b13edf4f477678c16a55d345c0de613e080e304b9065
-SHA521: 7d260666e78d0be988e7190144f7139170cb03c36fc86202e43ffeff5f166529e35662dfd2a65f49b9961de5e73e8543744ee48dc9f311189571d088c1f96ed5
-
-Package: us.scw.afctwoadd
-Name: afc2add
-Version: 1.01
-Architecture: iphoneos-arm
-Depends: com.ericasadun.utilities
-Description: Package to add afc2 service for USB browsing of filesystem. Adds the afc2 service and reboots the phone, to fix issues for folks unable to use USB browsers (like iPhoneBrowser) with blackra1n.
-Depiction: http://modmyi.com/info/afctwoadd.d.php
-Homepage: http://modmyi.com/info/afctwoadd.php
-Maintainer: NetMage <scw@scw.us>
-Author: NetMage <scw@scw.us>
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Maintainer: ichitaso
+Pre-Depends: cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.iphone (= 2.1) | cy+model.ipod (= 4.1) | cy+model.ipod (= 3.1) | cy+model.ipad (= 1.1), firmware (= 4.3.4) | firmware (= 4.3.5) |  firmware (= 5.0) | firmware (= 5.1)
+Conflicts: repo.weiphone.unthredera1n
+Replaces: com.unthreadedjb.unthredera1n
+Filename: ./debs/com.unthreadedjb.unthredera1n_1.0_iphoneos-arm.deb
+Size: 155366
+MD5sum: d8b325819101a28a7ac1b4de043a19f7
+SHA1: 2223f98388375e8d793feeb4cd63055118d9b2d7
+SHA256: 1928fbc5d180fffe651921d268929f916b02a0ab2b8b0ce53d8b774b218d0122
 Section: System
-Filename: debs/us.scw.afctwoadd_1.01_iphoneos-arm.deb
-Depiction: https://imnotsatan.github.io/depictions/us.scw.afctwoadd.html
-Size: 1136
-MD5sum: 624641d8ce8ee0c4035faf1997bf5df6
-SHA1: 047c1a67a69370d4104d198dbe90637b5adf6349
-SHA256: cf4674a7f07127b1bde299672e5589a7fc7d3975bfbdc61cca346edb9426779a
-SHA521: ba02f0812f1710de88b713b713993a16760a7c1510e08dd3c09bbb5e42a32d68c1692ca8ee78491fe96182a037f50746f3ef2474fb0d7ab27dfe5290dbb0a34f
+Priority: standard
+Homepage: http://unthreadedjb.com/
+Description: iOS 4.3.4 - 5.1 Untethered Jailbreak by @UnthreadedJB for iPhone 3GS / iPhone 4(GSM/CDMA) / iPod Touch(3G/4G) / iPad 1
+Tag: role::enduser
+Author: UnthreadedJB
+Depiction: http://ichitaso.com/apt/depiction/unthredera1n.html
+Name: Unthredera1n
 
+Package: com.xn117khdsh.abs
+Version: 1.3.95
 Architecture: iphoneos-arm
-Author: 3nrico
-Description: A simple fix for the crashing of the Weather app after performing the untethered iOS 6 jailbreak.
-Maintainer: CrackLords
-Name: iOS 6 Weather App Fix
-Package: info.cracklords.weatherfix
-Pre-Depends: firmware (>= 6.0)
+Maintainer: xn117khdsh
+Pre-Depends: firmware (>= 4.2)
+Depends: mobilesubstrate (>= 0.9.5000), libactivator | com.clezz.quickdo, shell-cmds, coreutils, coreutils-bin, com.ericasadun.utilities, com.if0rce.blued | com.ericday.blued, preferenceloader (>= 2.2.2), com.if0rce.blued-ng | com.ericday.blued-ng
+Filename: ./debs/abs_1.3.95.deb
+Size: 4214592
+MD5sum: dd2bf3ade1d14acfe8ab29818ad15c0c
+SHA1: 3448fb7177119a0edbd9b717a22f84c91638c80f
+SHA256: 765c118a65684451c2afbbba1db85b807f4d88a9d33507ca58a4b3a5a1778589
 Section: Tweaks
-Version: 1.0
-Filename: debs/weatherfix.deb
-Depiction: https://imnotsatan.github.io/depictions/info.cracklords.weatherfix.html
-Size: 82932
-MD5sum: 3d51b87cc3335afd1bdf82176dcf4c19
-SHA1: e5753e17ca5a80c9035e3846fcec33fcc9dd7d48
-SHA256: 10a766866cf42009a42de48444f23bbb8561602ff1c30cd10ca9e643898eb797
-SHA521: e1821ece6624cd41059b731dfe35a97dc67ffca3c8b769f756b0513f88ef93f35e62cf76c10fb41c4ac697927b0e3207b4cfa200a45805d1fb11fdb175fa9223
+Homepage: https://xn117khdsh.github.io/repo/
+Description: Bluetooth OBEX and WiFi(P2P supported) File Transfer, AirDrop for your iOS
+Author: xn117khdsh
+Name: AirBlue Sharing (iOS 7-)
 
-Package: com.xn117khdsh.weeradio
-Name: WeeRadio for NC (Free)
+Package: com.xn117khdsh.auxo2
 Version: 1.1
-Depends: firmware(>= 5.0), mobilesubstrate(>= 0.9.3901)
 Architecture: iphoneos-arm
-Author: Albert Schulz
+Maintainer: xn117khdsh
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
+Conflicts: com.danyl.cccontrols (<= 1.0.2), kr.slak.cctoggles (<< 0.1-18), org.thebigboss.vertex
+Filename: ./debs/auxo2_1.1.deb
+Size: 550580
+MD5sum: f78121e84174b701ae2b02e51a01648e
+SHA1: b9d7624bd4f099019b1fc94c21e23b2c3c487ed9
+SHA256: 539892b9a1436ef6cbc3385ceb8160a266c1f244922adef6469b6257ecf35605
 Section: Tweaks
-Description: favorite radio streams in NotificationCenter
-Maintainer: xn117khdsh
-Filename: debs/weeradio_1.1_iphoneos-arm.deb
-Depiction: https://imnotsatan.github.io/depictions/com.xn117khdsh.weeradio.html
-Size: 39200
-MD5sum: 139068fb27d83b6a6a7acb4c25259696
-SHA1: cb71b37f522e3e010866cf7d8cfbf37d8a4a3996
-SHA256: 6f89ada0c1d6e85d0be9d0267b364f411248e00100f95b40497fca39fd7230c5
-SHA521: 0b5bbcf3f95c074b742e972fab4a661719452e0599cb5e1530695ff826974394d17096caf22881b08c179f4f76d59d6d77dc5bea4bcb7a90d8d4a4b9dcf9d7c8
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
+Description: A fantasic re-imagined task switcher!
+Author: A3tweaks <auxo2@a3tweaks.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
+Icon: file:///Library/PreferenceBundles/UminoPreferences.bundle/Auxo2@2x.png
+Name: Auxo 2 (iOS 7)
 
-Package: ws.hbang.common
-Name: Cephei Tweak Support
-Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
+Package: com.xn117khdsh.auxo2
+Version: 1.2.1
 Architecture: iphoneos-arm
-Description: Support library for tweaks
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Author: HASHBANG Productions <support@hbang.ws>
-Section: Development
-Icon: https://cdn.chariz.cloud/icon/cephei/icon@3x.png
-Depiction: https://chariz.com/get/cephei
-Support: https://hashbang.productions/support/
-Tag: role::developer, compatible_min::ios5.0
-dev: hbang
-Version: 1.17
-Installed-Size: 1852
-Filename: debs/ws.hbang.common_1.17_iphoneos-arm.deb
-Depiction: https://imnotsatan.github.io/depictions/ws.hbang.common.html
-Size: 207662
-MD5sum: aea7132dbb77bf799ed6ff1942af9c0a
-SHA1: db31f872dab06eaeb0bc732ede9af5d2e94b52c5
-SHA256: 3eaea1713f40ef02606bfa67f44f62529ea8b923c0aefb39fc68e230c40a0f6d
-SHA521: 91bee746f123feb43b3c8aa9da7e1ddc9d7865567b265c85cf1679fda51c478f5aa1e6324f18f105f8eec8c89f7da79f9d9ccb64107c4f70dbe3d47dc6970ac7
-
-Architecture: iphoneos-arm
-Author: jailbreakstyle
-Description: Alternative Classic YouTube App for iOS 6.1 by jailbreakstyle. For users who have problems with InvoxiPlayGames's Youtube App. Works well with TubeFixer (IPG's Beta Repo).
 Maintainer: xn117khdsh
-Name: Youtube for iOS 6.1
-Depends: firmware (>= 6.1)
-Package: vn.xn117khdsh.youtubeforios61
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
+Conflicts: com.danyl.cccontrols (<= 1.0.2), kr.slak.cctoggles (<< 0.1-18), org.thebigboss.vertex
+Filename: ./debs/auxo2_1.2.1.deb
+Size: 598500
+MD5sum: 029d5c43d0056a02c277e4adb0daa9dc
+SHA1: 51c2e71359f43b295fc5de8ba1c59cb9cc1eba8c
+SHA256: 84ad41cde386a3893e8ede651ff20006e476d1c01bee91b96905517b4f91ac4a
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
+Description: A fantasic re-imagined task switcher!
+Author: A3tweaks <auxo2@a3tweaks.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
+Icon: file:///Library/PreferenceBundles/UminoPreferences.bundle/Auxo2@2x.png
+Name: Auxo 2 (iOS 7)
+
+Package: com.xn117khdsh.auxo2
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
+Conflicts: com.danyl.cccontrols (<= 1.0.2), kr.slak.cctoggles (<< 0.1-18), org.thebigboss.vertex
+Filename: ./debs/auxo2_1.2.3.deb
+Size: 862222
+MD5sum: 2a7257a275ad40d3bb63cd8ff12f16c4
+SHA1: 003f5a23c7517553a3bbd3ed92967544c70316ad
+SHA256: 23b94ec7b48ad73586c0753007e187eed1c26c64dc9593a7cebd37955b32e9fb
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
+Description: A fantasic re-imagined task switcher!
+Author: A3tweaks <auxo2@a3tweaks.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxo2Dp
+Icon: file:///Library/PreferenceBundles/UminoPreferences.bundle/Auxo2@2x.png
+Name: Auxo 2 (iOS 7)
+
+Package: com.xn117khdsh.deezelife
+Version: 0.2-1
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: mobilesubstrate
+Filename: ./debs/deezelife.deb
+Size: 43692
+MD5sum: 6058114a70678f0847bf2d1d451384b0
+SHA1: 6c010a1cf4b9f7979e2a1b2f5f6e1eea7bf3f933
+SHA256: f827faf24de6d29cb9c44ba5a0e87457d673926074fb94a77cada8852d10efa3
+Section: Tweaks
+Description: Deezer Fully Premium Features, Unrestrict Music... Requires Deezer App (AppStore)
+Author: julioverne
+Name: Deezelife
+
+Package: com.xn117khdsh.icleanerpro
+Version: 7.6.4
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Pre-Depends: apt, findutils, shell-cmds
+Depends: firmware (>= 4.0)
+Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, vn.gsm.icleanerprobeta
+Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, vn.gsm.icleanerprobeta
+Filename: ./debs/icleanerpro_7.6.4_regged.deb
+Size: 4747008
+MD5sum: 921757ccb46d6dc0b5bf5a61b896c52a
+SHA1: feb6587625a453ed6de26df3ce56163703f7a241
+SHA256: 209a85cb4150cb94ea069e5a428b2b1679d6fbdeb2555c578b2a995e284a3249
 Section: Utilities
-Version: 1.0
-Filename: debs/youtubeforios61_1.0.deb
-Depiction: https://imnotsatan.github.io/depictions/vn.xn117khdsh.youtubeforios61.html
-Size: 312656
-MD5sum: 22d9749b9677ea50c3088ae5100760ea
-SHA1: 999b71e3c84accfe25d131890c05b5f3d430e864
-SHA256: e6914230f8cb749d2c1a7d432599aade65915b4e2f5c5b2b93bb79318f5b952b
-SHA521: 8c07a9b87f0863f384c7c84024ea8d54747e7a821f902ae471d4d37805bf5a529bfd68047ce40a4c5463c3477835c1f8867c20dc6474d9e4b864eee063c1e180
+Homepage: https://xn117khdsh.github.io/repo
+Description: The first real iOS system cleaner & optimizer
+Author: xn117khdsh
+Depiction: https://xn117khdsh.github.io/repo/depictions/?p=com.xn117khdsh.icleanerpro
+Name: iCleaner Pro Cracked
 
 Package: com.xn117khdsh.p1neapple.zephyr
-Name: Zephyr Cracked (iOS 5-6)
-Section: Tweaks
 Version: 1.6.4-1
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
 Pre-Depends: firmware (>= 5.0)
 Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.layersnapshotter
-Architecture: iphoneos-arm
-Description: Awesome swipe multitasking and gestures!
-Depiction: https://xn117khdsh.github.io/repo/depictions/?p=com.xn117khdsh.p1neapple.zephyr
-Author: xn117khdsh
-Maintainer: xn117khdsh
-Filename: debs/zephyr_1.6.4-1.deb
-Depiction: https://imnotsatan.github.io/depictions/com.xn117khdsh.p1neapple.zephyr.html
+Filename: ./debs/zephyr_1.6.4-1.deb
 Size: 44508
 MD5sum: 0a83a642b948cb85f120acc2df1569ee
 SHA1: a05ac2503ffab3d63c697e65dee6c03ff488ed3b
 SHA256: 75c74f41c8d889ae87c684a1e1c01b39670773389453fb31010e6facca838bdc
-SHA521: 64521ae2e5721cb6885e7a12c3d38603c410ed81e3ca6e774e5204f2a194b9b4a84e0432e9590b8e2fa91133fc80a36d8fdce1096e97d2390f99a204d020250e
+Section: Tweaks
+Description: Awesome swipe multitasking and gestures!
+Author: xn117khdsh
+Depiction: https://xn117khdsh.github.io/repo/depictions/?p=com.xn117khdsh.p1neapple.zephyr
+Name: Zephyr Cracked (iOS 5-6)
+
+Package: com.xn117khdsh.weeradio
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: firmware(>= 5.0), mobilesubstrate(>= 0.9.3901)
+Filename: ./debs/weeradio_1.1_iphoneos-arm.deb
+Size: 39200
+MD5sum: 139068fb27d83b6a6a7acb4c25259696
+SHA1: cb71b37f522e3e010866cf7d8cfbf37d8a4a3996
+SHA256: 6f89ada0c1d6e85d0be9d0267b364f411248e00100f95b40497fca39fd7230c5
+Section: Tweaks
+Description: favorite radio streams in NotificationCenter
+Author: Albert Schulz
+Name: WeeRadio for NC (Free)
+
+Package: com.ziph0n.buttondisabler
+Version: 0.0.1-21+debug
+Architecture: iphoneos-arm
+Maintainer: Ziph0n
+Installed-Size: 380
+Depends: mobilesubstrate
+Filename: ./debs/com.ziph0n.buttondisabler_0.0.1-21+debug_iphoneos-arm.deb
+Size: 62450
+MD5sum: 58582d919f72ccb0b983b4133540ea65
+SHA1: 7b077b238472dc2f3092003603a2b03807685c70
+SHA256: 63285f962eec5548b746d6334be4a7e849451df80cc8ae125d81187192685dd3
+Section: Tweaks
+Description: Disable physical buttons / Stop defective buttons from triggering inadvertently.
+Author: Ziph0n
+Name: ButtonDisabler
+
+Package: crk.gsm.nitrous
+Version: 2.3-2
+Architecture: iphoneos-arm
+Maintainer: cooler3105
+Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5015), preferenceloader (>= 2.2.2), applist (>= 1.5.9)
+Breaks: io.pangu.xuanyuansword8 (<< 0.2)
+Filename: ./debs/crk.gsm.nitrous_2.3-2.deb
+Size: 110912
+MD5sum: fba4968269d1e22ffd56d244bd5ad4f9
+SHA1: 60aebc4487321f205abc1f87c29ad47d9a19ef5f
+SHA256: 2c0c415e08033a6b67f8bfac7b7a506cd1f4e5715ffe0178e7f2b60d1d08d47d
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
+Description: Give JavaScript a speed boost with Nitro
+Author: Joe Jordan
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nitrousDp
+Name: Nitrous
+
+Package: crk.heinelt.ifile
+Version: 1.6.1-1
+Architecture: iphoneos-arm
+Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: ./debs/crk.heinelt.ifile_1.6.1_1.deb
+Size: 3418640
+MD5sum: b6d62756ac6d81aac380b3f51a7b2e45
+SHA1: 99e9d2030f5b03d41451fb32f71c43ba05df8004
+SHA256: 59ea687b42b65150399213964a59478e8e65cb742459218ecbdae50f8c452245
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Dev: carsten
+Name: iFile
+
+Package: crk.heinelt.ifile
+Version: 1.7.1-1
+Architecture: iphoneos-arm
+Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: ./debs/crk.heinelt.ifile_1.7.1_1.deb
+Size: 5350456
+MD5sum: 0f9928237d49fbc837d243b79889a01e
+SHA1: 3852787958ad215b58416ed1a6b224f3fe7e17dc
+SHA256: 36c5bdceeb7f873fb0d4fd5fb8ff637e3898aa44c31b314e5a3b72523f9e651a
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Dev: carsten
+Name: iFile
+
+Package: crk.heinelt.ifile
+Version: 1.7.2-2
+Architecture: iphoneos-arm
+Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: ./debs/crk.heinelt.ifile_1.7.2-2.deb
+Size: 5873914
+MD5sum: e19a94c898958073cabd1ecb5b5dc02e
+SHA1: ddf56d2a6694d89e386a0c506d50b504f3077f38
+SHA256: 676fb7196ce950dc9781d4fc6ea9ca9a13fd02e0d6d9d26fd49683ff2dcb7579
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Dev: carsten
+Name: iFile
+
+Package: crk.heinelt.ifile
+Version: 1.8.1-1
+Architecture: iphoneos-arm
+Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: ./debs/crk.heinelt.ifile_1.8.1-1.deb
+Size: 7156334
+MD5sum: a456b48ee300ca30da26ae1f86e4f838
+SHA1: bf816bb2e23004293381ff7b4684bd1f7073f32b
+SHA256: 45b07e90a72d39bcf012001ea4d871be77c3fa1f18b34afabac968c6720103ec
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Dev: carsten
+Name: iFile
+
+Package: crk.rpetrich.fullforce
+Version: 1.1.3~beta1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 6), mobilesubstrate, preferenceloader (>= 2.2), applist (>= 1.5.9~beta1), cy+model.iphone | cy+model.ipod
+Conflicts: com.kindadev.goodfit
+Replaces: com.kindadev.goodfit
+Filename: ./debs/fullforce_v1.1.3_beta1.deb
+Size: 108368
+MD5sum: 5f9e7c0557e20a4b28e5cdf388489883
+SHA1: 8d8cdfd14968e16ac0161c742fbedd2741125093
+SHA256: f96d99f0b74944db0a0eb455d67ace1d25248ae885a28a3f8e4a4357b3e51991
+Section: Tweaks
+Homepage: http://rpetri.ch/cydia/fullforceforphone/
+Description: Force applications to show in fullscreen mode
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://rpetri.ch/cydia/fullforceforphone/
+Name: FullForce for Phone
+
+Package: crk.tigisoftware.filza.old
+Version: 1.5-211
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Filename: ./debs/crk.tigisoftware.filza.old_1.5-211.deb
+Size: 7697656
+MD5sum: 685ba9a1f50a6d7d7b8df350867770c2
+SHA1: 2236e94569ca0a4691892f3f5010b4f7e0c7e52d
+SHA256: 510e50f29b0c07e8cb86535a34955bc8673d9190245136ce982cdf0089153e62
+Section: Utilities
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
+Description: File Manager for iOS. Supports iOS 7+
+Tag: purpose::uikit, ios7support::1, ios8support::1
+Author: TIGI Software <satashi2009@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
+Dev: satashi2009
+Icon: file:///Applications/Filza.app/Icon.png
+Name: Filza File Manager
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: crk.tigisoftware.filza.old
+Version: 2.0.0-129
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Filename: ./debs/crk.tigisoftware.filza.old_2.0.0-129.deb
+Size: 9223668
+MD5sum: 566289a2dbb2f5078fe58d5fc1a952e6
+SHA1: 4cf083c76ee83f0d953cd312f0592b917d99528e
+SHA256: e772ecc198b1bd6279e2387d38ccafdcc92663c4431d87a0dad9b1767134758d
+Section: Utilities
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
+Description: File Manager for iOS. Supports iOS 7+
+Tag: purpose::uikit, compatible::ios7, compatible::ios8
+Author: TIGI Software <satashi2009@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
+Dev: satashi2009
+Icon: file:///Applications/Filza.app/Icon.png
+Name: Filza File Manager
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: crk.tigisoftware.filza.old
+Version: 2.0.1-56
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Depends: zip, unzip, gzip, unrar, p7zip
+Filename: ./debs/crk.tigisoftware.filza.old_2.0.1-56.deb
+Size: 9232458
+MD5sum: 156fbfe18ad3be78d8e04d04338c8c1f
+SHA1: 43e3e3b5499a1e0dcb0e678226b03fbb14d6700a
+SHA256: a5fe1e4028e1446603acde9e51a9db602fc2dff8d0621f043c0c1ff5924cd668
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: TIGI Software
+Name: Filza File Manager
+
+Package: crk.tigisoftware.filza.old
+Version: 2.0.2-1
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Depends: zip, unzip, gzip, unrar, p7zip
+Filename: ./debs/crk.tigisoftware.filza.old_2.0.2-1.deb
+Size: 9252024
+MD5sum: 639e19ee8d86d560c9dad5bd0c4407f1
+SHA1: 9bbea7cbc89c3345635aa45887a0b402ab037856
+SHA256: c5f3ca073da1435cf7ea3136f05ab13ef8046839d9b08409f3831167274c24de
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: TIGI Software
+Name: Filza File Manager
+
+Package: crk.tigisoftware.filza.old
+Version: 2.0.2-7
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Depends: zip, unzip, gzip, unrar, p7zip
+Filename: ./debs/crk.tigisoftware.filza.old_2.0.2-7.deb
+Size: 9285564
+MD5sum: f3c55414d3327265e049781d200d6f33
+SHA1: 34c3519dc8323319e27fe10f223cf4c250f731f6
+SHA256: 1ecd3206dcfe611961702dd06477e9988a8b0a2a58c8f6309097450aca4b6f17
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: TIGI Software
+Name: Filza File Manager
+
+Package: crk.tigisoftware.filza.old
+Version: 2.1.0-2
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Depends: zip, unzip, gzip, unrar, p7zip
+Filename: ./debs/crk.tigisoftware.filza.old_2.1.0-2.deb
+Size: 9301164
+MD5sum: ddbd5663cdfa32875f9ebb9fc77c1ffb
+SHA1: fad69dbd8dad25580b1a9b9bb1d9cbca06538531
+SHA256: 42604ccb92759f2d3cb444fcacc60c7b24cc6c41ebb504aefd9102a03e190a09
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: TIGI Software
+Name: Filza File Manager
+
+Package: crk.tigisoftware.filza.old
+Version: 3.0.0-73
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Depends: zip, unzip, gzip, unrar, p7zip
+Filename: ./debs/crk.tigisoftware.filza.old_3.0.0-73.deb
+Size: 9398212
+MD5sum: 0cba839b09eb21671d5aab83623879b7
+SHA1: 1607ced92679e7ab5f9a88c240e6ecc9ea9c586e
+SHA256: 75503e394723ee322ce6c290745b3ae386d8804f7c753c56fec49a8eab7c7d85
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: TIGI Software
+Name: Filza File Manager
+
+Package: info.cracklords.weatherfix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CrackLords
+Pre-Depends: firmware (>= 6.0)
+Filename: ./debs/weatherfix.deb
+Size: 82932
+MD5sum: 3d51b87cc3335afd1bdf82176dcf4c19
+SHA1: e5753e17ca5a80c9035e3846fcec33fcc9dd7d48
+SHA256: 10a766866cf42009a42de48444f23bbb8561602ff1c30cd10ca9e643898eb797
+Section: Tweaks
+Description: A simple fix for the crashing of the Weather app after performing the untethered iOS 6 jailbreak.
+Author: 3nrico
+Name: iOS 6 Weather App Fix
+
+Package: io.pangu.axe7
+Version: 0.3
+Architecture: iphoneos-arm
+Maintainer: Pangu <axe@pangu.io>
+Depends: coreutils-bin, firmware (>= 7.1), firmware (<= 7.1.2)
+Filename: ./debs/io.pangu.axe7_0.3_iphoneos-arm.deb
+Size: 107276
+MD5sum: 3d86ef34bda9287e6081dda95b7593dd
+SHA1: 4267988b1bfdc4578dced131667ccca8eb6eb986
+SHA256: db7e412fd629802e26c8aec481cdca9cfe0a3bc33c7a4cc243351245da5cb172
+Section: System
+Priority: optional
+Description: untethered jailbreak based on pangu exploits
+Author: Pangu <axe@pangu.io>
+Depiction: http://cydia.saurik.com/info/io.pangu.axe7/
+Name: Pangu 7.1-7.1.x Untether
+
+Package: io.pangu.xuanyuansword8
+Version: 0.5
+Architecture: iphoneos-arm
+Maintainer: Pangu <axe@pangu.io>
+Depends: coreutils-bin, firmware (>= 8.0), firmware (<= 8.1)
+Filename: ./debs/io.pangu.xuanyuansword8_0.5_iphoneos-arm.deb
+Size: 456978
+MD5sum: 4aaf6a47faf4896d73955980eaa9c078
+SHA1: c6b1673b646a5a72a92232210bf3fb4c44dba9ce
+SHA256: 16ebfa004be2825288121560a73b67729fcc6721e6fca83c7963db812d934e96
+Section: System
+Priority: optional
+Description: untethered jailbreak based on pangu exploits
+Author: Pangu <axe@pangu.io>
+Depiction: http://cydia.saurik.com/info/io.pangu.xuanyuansword8/
+Name: Pangu 8.0-8.1 Untether
+
+Package: mobileterminal-applesdk7
+Version: 520-2(1)
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Filename: ./debs/MobileTerminal7.deb
+Size: 243696
+MD5sum: 0d201baea20aef2847afe5fa7c8f9edd
+SHA1: 7c9fa876c08dc110ba943739b9f58e95d53f53c6
+SHA256: 3d3cfd2a558124240ceab37290d804dc8c20450d7aadf31ac5eafb66e99f9256
+Section: Terminal Support
+Description: MobileTerminal with iOS 7 + 4” screen support
+Author: Fr0st
+Depiction: MobileTerminal with iOS 7 + 4” screen support
+Name: MobileTerminal (iOS7)
+
+Package: net.angelxwind.mikoto
+Version: 4.0.3
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Installed-Size: 15548
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.0-1), net.angelxwind.karenprefs (>= 1.4), net.angelxwind.karenlocalizer
+Conflicts: com.xcxiao.simplelsios10
+Filename: ./debs/nodelete-net.angelxwind.mikoto.deb
+Size: 11582804
+MD5sum: e1f49254a62ed949fd6d7d44c0b01043
+SHA1: 5717d7348bd1a23cc7bb94f659704409a21eeb8a
+SHA256: ea31dd47acfa2c397664ffb19e8bcc130d356d37fad49ccd6c45ebb32f06de69
+Section: Tweaks
+Homepage: https://cydia.angelxwind.net/
+Description: Comprehensive iOS System/App Store App customisation suite
+Author: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.mikoto
+Icon: file:///Library/KarenRepoIcons/net.angelxwind.mikoto.png
+Name: mikoto
+
+Package: net.angelxwind.sandboxpathfixer
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: Karen
+Depends: mobilesubstrate, firmware (>= 8.0), com.rpetrich.rocketbootstrap (>= 1.0.2), net.angelxwind.karenprefs, applist
+Filename: ./debs/net.angelxwind.sandboxpathfixer.deb
+Size: 23362
+MD5sum: f87ec8c95982799e98455e58f75cbcea
+SHA1: 9d129cb97b2f9c8da09df0fa283a3be877d9ed5b
+SHA256: 2e46b73bd9eccecf062f8942b16f7e6825ce71ca3b1840c4b53c4cd7d61c1cf4
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Fixes sandbox paths for certain apps that are broken in iOS 8.0 and above
+Author: Karen
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.sandboxpathfixer
+Name: Sandbox Path Fixer
+
+Package: net.angelxwind.stash841
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Karen
+Depends: net.tihmstar.etasonuntether (>= 1.1.0), firmware (= 8.4.1)
+Filename: ./debs/net.angelxwind.stash841_fixed.deb
+Size: 1190
+MD5sum: 4de38a9613e0657d1192c21e4e57b729
+SHA1: c12d8fce079e743dbcc62803ce77f44253c74a6b
+SHA256: 562a26cd0c16da19a875d493ff6f1697a03fe4d12f276a71da6ae9c6c257808b
+Section: System
+Homepage: https://cydia.angelxwind.net/
+Description: Enables stashing on #etasonJB (iOS 8.4.1)
+Author: Karen
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash841
+Name: Stashing for #etasonJB (8.4.1)
+
+Package: net.angelxwind.stash935fix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Karen
+Depends: firmware (= 9.3.5)
+Filename: ./debs/net.angelxwind.stash935fix.deb
+Size: 1166
+MD5sum: 7a1dd0952b05fee830ba665b356edd89
+SHA1: 350949d26da9d73d9ae0d65934f800e714ebf37b
+SHA256: eb7171ba51339889d6e7ec7e87141ddcc3c52ad26dcd557b8eb827cfc6ddda7f
+Section: System
+Homepage: https://cydia.angelxwind.net/
+Description: Fixes stashing on Phœnix (iOS 9.3.5)
+Author: Karen
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash935fix
+Name: Stashing Fix for Phœnix (9.3.5)
+
+Package: org.xn117khdsh.auxo
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/auxo_1.4-2.deb
+Size: 1954518
+MD5sum: 0fc1c8f29e2532bcefe876666f4a09f7
+SHA1: df0cdcbb660e8cc6deab5107e92a573542fa27f7
+SHA256: ea564a9c2b8b21bb362c7c24f727e225071c97120ea4df8e35896f4e187df6d3
+Section: Tweaks
+Homepage: https://xn117khdsh.github.io/repo
+Description: A fantastic re-imagined multitasking bar!
+Author: xn117khdsh
+Depiction: https://xn117khdsh.github.io/repo/depictions/?p=org.xn117khdsh.auxo
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+Name: Auxo Cracked (iOS 5-6)
+
+Package: org.xn117khdsh.auxo-le
+Version: 1.1k2
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001), applist (>= 1.5.9), preferenceloader (>= 2.2.2)
+Conflicts: com.rpetrich.sectional, com.repo.xarold.com.sectional, com.a3tweaks.auxo3ios9
+Filename: ./debs/auxole_1.1k2.deb
+Size: 437660
+MD5sum: 8c299bdc5c8e325cefdde66a60f446ed
+SHA1: e03f8c557828690732aa400fc84d2ec633f3b66e
+SHA256: 522eb8cec5c2058f18b964c7f44f7e865999e2548b60bc6144aabf358ced7523
+Section: Tweaks
+Description: A modern app switcher in control center
+Author: A3Tweaks
+Depiction: https://xn117khdsh.github.io/repo/depictions/?p=org.xn117khdsh.auxo-le
+Name: Auxo Legacy Edition Cracked
+
+Package: original.siri
+Version: 5.4.0-0finalRev2
+Architecture: iphoneos-arm
+Maintainer: gdimait <http://siriport.ru/forum/user/1-gdimait/>
+Pre-Depends: firmware (>= 5.1)
+Depends: preferenceloader, mobilesubstrate, com.ericasadun.utilities
+Conflicts: com.chpwn.spire, siri.by.siriport.ru, russian.siri.by.siriport.ru.511, gsc.ipad, original.siri.by.siriport.ru.511
+Filename: ./debs/SiriPort_Original_iPhone_iPod_repo_siriport_ru_5_4_0finalRev2.deb
+Size: 99551876
+MD5sum: cdca9fba89058391b9e83513e0145b7b
+SHA1: e0e573e6d2da4576c8837946c46e7630f8a4735e
+SHA256: dbc01a914768a4db87b996994431f2977756abc471321c8e573f9e58a7bf60cf
+Section: Siri
+Priority: standard
+Homepage: http://siriport.ru
+Description: Best Original Siri iOS 5.1.X
+Tag: purpose::extension
+Author: Dmitriy Garitskiy <http://siriport.ru/>
+Depiction: http://aptinfo.siriport.ru/repo_files/pages/siriport_for_5_1.html
+Icon: file:///var/siriport.ru/icon64.png
+Name: SiriPort (Original)
+Sponsor: SiriPort.Ru <http://siriport.ru/forum/user/1-gdimait/>
+
+Package: ru.anonz.jigtyhack
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/jigtyhack_0.0.1-2.deb
+Size: 6044
+MD5sum: ab0a38cf477907ff13f5aa590ee7ee97
+SHA1: 92c4cb44d9aef021a371b4090f376ed126286dbe
+SHA256: 62aa78ef671e7f0ae2b6f48418f1b6ca3f0c669c36352f3a40850105a15322ba
+Section: Tweaks
+Description: Jigty Jigsaw Puzzles hack for iOS. Including: Unlock all packs, free premium upgrade and "buy" expired offer and special offer packs
+Author: Anonym0uz
+Name: JigtyHack
+
+Package: us.gsm.appsync70plus
+Version: 5.8
+Architecture: iphoneos-arm
+Maintainer: Linus Yang, Karen Tsai
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 10.0)
+Conflicts: com.linusyang.appsync, net.angelxwind.appsyncunified, com.linusyang.appsyncnew
+Replaces: com.linusyang.appsync, net.angelxwind.appsyncunified, com.linusyang.appsyncnew
+Provides: appsync
+Filename: ./debs/us.gsm.appsync70plus_5.8.deb
+Size: 163350
+MD5sum: 0d8e8030909d744442846482733f7ab3
+SHA1: 28a0c0bf0566644e392d393c327c4366c68ee91b
+SHA256: 8a419d1b71e17ab142a11538403aa397da3915c3a8ac9ca41fa3f927aa55b19f
+Section: Tweaks
+Description: AppSync Unified allows you to sync and install unsigned iOS applications. Works on iOS 5 and above.
+Author: Linus Yang, Karen Tsai
+Name: AppSync for iOS 6, 7, 8, 9
+
+Package: us.gsm.powersaver
+Version: 0.0.1-68
+Architecture: iphoneos-arm
+Maintainer: Elijah Frederickson
+Depends: mobilesubstrate
+Filename: ./debs/us.gsm.powersaver_0.0.1-68.deb
+Size: 137602
+MD5sum: 8efba2b6747eb1dff6fbb672c89b3b69
+SHA1: dbf4c01a123506476189126496bb31c391253e05
+SHA256: a86d3f6ea11289ca66e7b13edf4f477678c16a55d345c0de613e080e304b9065
+Section: Tweaks
+Description: Adds a power-saving mode to iOS that disables some system settings to extend battery life. Adds a link to the Battery Usage section to the main settings page, and adds the power saving mode button to the top of the battery usage view. Compatible with iOS 8.
+Author: Elijah Frederickson
+Name: Power Saver Mode
+
+Package: us.scw.afctwoadd
+Version: 1.01
+Architecture: iphoneos-arm
+Maintainer: NetMage <scw@scw.us>
+Depends: com.ericasadun.utilities
+Filename: ./debs/us.scw.afctwoadd_1.01_iphoneos-arm.deb
+Size: 1136
+MD5sum: 624641d8ce8ee0c4035faf1997bf5df6
+SHA1: 047c1a67a69370d4104d198dbe90637b5adf6349
+SHA256: cf4674a7f07127b1bde299672e5589a7fc7d3975bfbdc61cca346edb9426779a
+Section: System
+Homepage: http://modmyi.com/info/afctwoadd.php
+Description: Package to add afc2 service for USB browsing of filesystem. Adds the afc2 service and reboots the phone, to fix issues for folks unable to use USB browsers (like iPhoneBrowser) with blackra1n.
+Author: NetMage <scw@scw.us>
+Depiction: http://modmyi.com/info/afctwoadd.d.php
+Name: afc2add
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: vn.gsm.localiapstore
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: anon dev
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Conflicts: anondev.LocalIAPStore
+Filename: ./debs/localiapstore_1.4-2_test.deb
+Size: 70798
+MD5sum: 167c1468039e794b1a19b133b10f23ea
+SHA1: 8ba65b5061ba6b6a03a64571a5a76f2a912c03ff
+SHA256: edde6419d6737d5dc03f3c7ff3fee57c90d7c5fe883b2627040ee69b57bb7615
+Section: Tweaks
+Priority: optional
+Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
+Author: anon dev
+Name: LocalIAPStore
+
+Package: vn.xn117khdsh.altkeyboard
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
+Filename: ./debs/altkeyboard_1.0.0.deb
+Size: 138246
+MD5sum: 6fdb2c4b9349e440a3347dcfb41234a2
+SHA1: a2ad5c6ee55cfe4b118b48231283deb69c4df392
+SHA256: 7c2e778440de34b083209bc24812a4220b2a04ed6157c48c0866036a79b4e00a
+Section: Tweaks
+Homepage: https://xn117khdsh.github.io/repo/
+Description: flick up to input numeric or special characters
+Author: A3tweaks
+Depiction: https://xn117khdsh.github.io/repo/depictions/?p=vn.xn117khdsh.altkeyboard
+Name: AltKeyboard (iOS 6)
+
+Package: vn.xn117khdsh.appsync50plus
+Version: 2.2b
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.linusyang.appsyncnew
+Replaces: com.linusyang.appsyncnew
+Filename: ./debs/appsync50plus_2.2b.deb
+Size: 4706
+MD5sum: 314ba6abd413ba8cac0077796711d903
+SHA1: 7679aa4ec8189cd83b7bc718542a5d840535f4db
+SHA256: d5405532833ee0d57ea795e4e255ff425ba125ba1dcd886819c4f8a657599435
+Section: Tweaks
+Homepage: https://xn117khdsh.github.io/repo/
+Description: AppSync allows you to sync and install cracked iOS applications. Works for iOS5.x and 6.x
+Author: Dissident
+Name: AppSync Legacy (iOS 5-6)
+
+Package: vn.xn117khdsh.barrel
+Version: 1.8.1.1-1
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: firmware(>= 3.1), mobilesubstrate, gsc.armv7, preferenceloader
+Filename: ./debs/barrel_1.8.1.1-1.deb
+Size: 1854142
+MD5sum: f3cf49061bced61f6f5ba6b43cfd43bf
+SHA1: 5560f5fbd76395b584411266f9409de4e290b141
+SHA256: 7809a225b35aac609c2fc9c13ac39c17b2f85582d60fe36b2dcc2f8ffb9b5d9e
+Section: Tweaks
+Homepage: https://xn117khdsh.github.io/repo/
+Description: This tweak adds graphical effects to your icon pages as you scroll through the homescreen. In the tweak's settings, you can choose between 18 different modes. New effects are still being developed. There is also an option to turn the effects off. Configure options from your Settings app. A Barrel settings app will be added to your home screen, all settings are entirely configurable from both the Barrel app and the native Settings app.
+Author: Aaron Ash (Charybdis)
+Name: Barrel Cracked
+
+Package: vn.xn117khdsh.cydown
+Version: 6.8.2
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Filename: ./debs/cydown_6.8.2.deb
+Size: 1402158
+MD5sum: 38eb9f4a1ac1a680437c61f31a89737b
+SHA1: 79e8c233646f2084d1bd3cdd2bb28397fd2dd54a
+SHA256: 67404171579dea81c6de8bfe5c2df93f38859dea2221bb6e8a7a8d7413918a00
+Section: Tweaks
+Homepage: https://xn117khdsh.github.io/repo/
+Description: Cydia Download Manager and Extra Features!
+Author: julioverne
+Depiction: https://xn117khdsh.github.io/repo/depictions/?p=vn.xn117khdsh.cydown
+Name: CyDown Legacy
+
+Package: vn.xn117khdsh.fiveicondock
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: firmware (>= 7.0), mobilesubstrate
+Conflicts: com.saurik.iphone.fid, com.gmoran.fiveicondock
+Filename: ./debs/fiveicondock7.deb
+Size: 3286
+MD5sum: d91b93620a17e3a0af771ac5afb0726f
+SHA1: bc393e2d7cdf53d18354e75e7dbb78ef14bb16bd
+SHA256: f6705728be7dab28b9bb0b138bfe77d0296e682f60ff536062086d3b428b58c4
+Section: Tweaks
+Description: Five Icon Dock for iOS7
+Author: fr0st
+Depiction: Five Icon Dock for iOS7
+Name: Five Icon Dock (iOS7)
+
+Package: vn.xn117khdsh.iap
+Version: 0.8-1
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Installed-Size: 128
+Depends: mobilesubstrate, firmware (>= 3.0), firmware (<< 6.0)
+Filename: ./debs/iapcracker.deb
+Size: 65834
+MD5sum: b17c11f5cad23752c532a5c705d3c7a9
+SHA1: 672d2d5488fa88933d144c5a0b004bf83042cb95
+SHA256: 1c7020a6544b504fa2c04a5e1cd94f77da2d9bc47c27e18a3f76336592edeeec
+Section: Tweaks
+Description: Free inapp purchases for old iOS
+Author: Appstore
+Name: iAP Cracker (iOS 3-5)
+
+Package: vn.xn117khdsh.igameguardian
+Version: 3.1.0
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: firmware (>= 5.0), firmware (<< 7.0)
+Filename: ./debs/igameguardian.deb
+Size: 260140
+MD5sum: dc22cd229adaab4be89fbfed7732bb66
+SHA1: e4309d9f31896ec1baa3ffca4a78086740b2a076
+SHA256: 15f0d31dba709adb66a8bf0db3e0b6740083cb0c9c677a85a148903f4996eda8
+Section: Utilities
+Description: iGameGuardian is a game cheating engine for iOS 5.x/6.x.
+Author: Guardian
+Icon: file:///Applications/iGameGuardian.app/pug_57.png
+Name: iGameGuardian
+
+Package: vn.xn117khdsh.libactivatorpatch
+Version: 1.8.3
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Installed-Size: 45
+Depends: libactivator (>= 1.8.3)
+Filename: ./debs/activatornoads.deb
+Size: 211306
+MD5sum: 8f19c93067a76157f00375557a81bfbb
+SHA1: 86c23cd48cbec5c6ee17fb568bf17bd65a74562e
+SHA256: 02aecf5b9c115f2e095504d6380de09dc2ec28a51e5f11dabb0dbda85e7ab785
+Section: Tweaks
+Description: Ad Removal Patch for Activator (Required v1.8.3 or newer).
+Author: Cydia.vn
+Depiction: Ad Removal Patch for Activator (Required v1.8.3 or newer).
+Name: Activator NoAds Patch
+
+Package: vn.xn117khdsh.protube2
+Version: 2.2.3
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: firmware(>= 5.0), mobilesubstrate(>= 0.9.5000), preferenceloader
+Filename: ./debs/protube2_2.2.3_yt.deb
+Size: 2688956
+MD5sum: 7934f3db8a96638fd192e0c44af67642
+SHA1: d4e772d1b465ddf1c1c62acde717c289308a518c
+SHA256: 840c45f84f7d56435e9d7dc9ac0c133be2786c4b177a8056a79f35baf035be79
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=protube2Dp
+Description: adds power features to Google's YouTube App
+Author: Jonas Gessner
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=protube2Dp
+Name: ProTube Extension for YouTube
+
+Package: vn.xn117khdsh.quicklock2
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Pre-Depends: firmware (>= 4.0)
+Filename: ./debs/quicklock2_1.0-2.deb
+Size: 14988
+MD5sum: 3ddaa5fd79920a0bb121c36955c331d1
+SHA1: e4982a465a14eaaa76880e98477ea48edce9c242
+SHA256: 1f7775413acc2b80d275f5f1b70587e6253ca60dc9ef7e917e8c72c66fa6f16c
+Section: Tweaks
+Description: Lock Screen quickly from SpringBoard by clicking on an icon.
+Author: Zotyo
+Depiction: Lock Screen quickly from SpringBoard by clicking on an icon.
+Name: QuickLock 2 (iOS 4-5)
+
+Package: vn.xn117khdsh.quicklock3
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Installed-Size: 49
+Depends: firmware (>= 6.0)
+Filename: ./debs/quicklock3_1.0.deb
+Size: 60572
+MD5sum: 681dc8c3fa06b21b49a6324e54bb09b9
+SHA1: 33e6ca8e873bada8e80b6cb388551a7f87e5c0bc
+SHA256: 17363fadf8a22765ebe1e47fbba7b7cb331affb3eedf346b8959d81664968dec
+Section: Tweaks
+Homepage: https://xn117khdsh.github.io/repo/
+Description: Lock Screen quickly from SpringBoard by clicking on an icon.
+Author: Zotyo
+Depiction: https://xn117khdsh.github.io/repo/depictions/?p=vn.xn117khdsh.quicklock3
+Name: QuickLock 3 (iOS 6)
+
+Package: vn.xn117khdsh.quicklock46
+Version: 0.0.1-18
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Installed-Size: 348
+Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 7.2)
+Conflicts: vn.xn117khdsh.quicklock3
+Filename: ./debs/quicklock46_0.0.1-18.deb
+Size: 55654
+MD5sum: 9c82ceae269a87b75f679f1bc9a3e9dd
+SHA1: 7826d785d8858fcc127557c2f35fc416bbe06b33
+SHA256: 541b51794ec30eaf9e9eef813a82949b20f4bfeea1f37c7e319eee5cf74e24a4
+Section: Tweaks
+Homepage: https://xn117khdsh.github.io/repo/
+Description: Just touch to lock your device! This package supports iOS 6 and iOS 7.x
+Author: deVbug
+Depiction: https://xn117khdsh.github.io/repo/depictions/?p=vn.xn117khdsh.quicklock46
+Name: QuickLock46 (iOS 6-7)
+
+Package: vn.xn117khdsh.sbinfograbber
+Version: 1.1.5-1
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: mobilesubstrate, firmware (>= 4.0)
+Conflicts: com.iptm.sbinfograbber
+Filename: ./debs/sbinfograbber_1.1.5-1.deb
+Size: 9054
+MD5sum: bb7e5b5ce0e7055d2e78b6576318cb50
+SHA1: ff604a3131fe6407722d4175b1c940b50d7bc647
+SHA256: b4299fd8a8c53c980ef11105935bdcdbb499696a3d399aad55da3b49464dd097
+Section: Tweaks
+Homepage: https://xn117khdsh.github.io/repo/
+Description: Support library for Lockdown Pro, Lite, etc. Required for Auto App Killer.
+Author: xn117khdsh
+Name: SBInfoGrabber for Auto App Killer
+
+Package: vn.xn117khdsh.youtubeforios61
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: xn117khdsh
+Depends: firmware (>= 6.1)
+Filename: ./debs/youtubeforios61_1.0.deb
+Size: 312656
+MD5sum: 22d9749b9677ea50c3088ae5100760ea
+SHA1: 999b71e3c84accfe25d131890c05b5f3d430e864
+SHA256: e6914230f8cb749d2c1a7d432599aade65915b4e2f5c5b2b93bb79318f5b952b
+Section: Utilities
+Description: Alternative Classic YouTube App for iOS 6.1 by jailbreakstyle. For users who have problems with InvoxiPlayGames's Youtube App. Works well with TubeFixer (IPG's Beta Repo).
+Author: jailbreakstyle
+Name: Youtube for iOS 6.1
+
+Package: ws.hbang.common
+Version: 1.17
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 1852
+Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
+Filename: ./debs/ws.hbang.common_1.17_iphoneos-arm.deb
+Size: 207662
+MD5sum: aea7132dbb77bf799ed6ff1942af9c0a
+SHA1: db31f872dab06eaeb0bc732ede9af5d2e94b52c5
+SHA256: 3eaea1713f40ef02606bfa67f44f62529ea8b923c0aefb39fc68e230c40a0f6d
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios5.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Dev: hbang
+Icon: https://cdn.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
 
