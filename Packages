@@ -136,6 +136,22 @@ Description: Tired to watch YouTube on Safari or Google Chrome on older device? 
 Author: PiercingImpulse
 Name: Verdura iOS [BETA]
 
+Package: com.subdiox.quicklock
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: subdiox <subdiox@gmail.com>
+Installed-Size: 760
+Depends: mobilesubstrate, firmware (>= 6.0), com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0)
+Filename: ./debs/com.subdiox.quicklock_1.0.0_iphoneos-arm.deb
+Size: 86652
+MD5sum: b24a5987c258ff056aa0fe8f5ced6b6c
+SHA1: c02639fe4f0f8fbc3f32bddb0767cbe0fd77185f
+SHA256: fbcea3eef12686c20347559360517676a878670807e3a331ad04e8d4ee73523f
+Section: Utilities
+Description: Just touch to lock your device, iOS 6 to 11 are supported. Thanks to deVbug's quicklock46
+Author: subdiox <subdiox@gmail.com>
+Name: QuickLock
+
 Package: com.unthreadedjb.unthredera1n
 Version: 1.0
 Architecture: iphoneos-arm
