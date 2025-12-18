@@ -676,6 +676,21 @@ Author: Karen
 Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash841
 Name: Stashing for #etasonJB (8.4.1)
 
+Package: net.angelxwind.stash841all
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Karen
+Depends: firmware (= 8.4.1)
+Filename: ./debs/net.angelxwind.stash841_all.deb
+Size: 1168
+MD5sum: 21a8d14f393ec98df64e337d4a67a660
+SHA1: 99beeff1c50009456e6c70f096395a0e841cd6f7
+SHA256: ba5126367a954e5d284155b1cf8e6b7604549d358952dc06d3edacbce8579cbf
+Section: System
+Description: Enables stashing on iOS 8.4.1 (etasonJB not required), original tweak by Karen (angelxwind)
+Author: Karen
+Name: Stashing for iOS 8.4.1
+
 Package: net.angelxwind.stash935fix
 Version: 1.0
 Architecture: iphoneos-arm
@@ -728,28 +743,23 @@ Author: A3Tweaks
 Depiction: https://xn117khdsh.github.io/repo/depictions/?p=org.xn117khdsh.auxo-le
 Name: Auxo Legacy Edition Cracked
 
-Package: original.siri
-Version: 5.4.0-0finalRev2
+Package: pro.protube2
+Version: 1.1.3
 Architecture: iphoneos-arm
-Maintainer: gdimait <http://siriport.ru/forum/user/1-gdimait/>
-Pre-Depends: firmware (>= 5.1)
-Depends: preferenceloader, mobilesubstrate, com.ericasadun.utilities
-Conflicts: com.chpwn.spire, siri.by.siriport.ru, russian.siri.by.siriport.ru.511, gsc.ipad, original.siri.by.siriport.ru.511
-Filename: ./debs/SiriPort_Original_iPhone_iPod_repo_siriport_ru_5_4_0finalRev2.deb
-Size: 99551876
-MD5sum: cdca9fba89058391b9e83513e0145b7b
-SHA1: e0e573e6d2da4576c8837946c46e7630f8a4735e
-SHA256: dbc01a914768a4db87b996994431f2977756abc471321c8e573f9e58a7bf60cf
-Section: Siri
-Priority: standard
-Homepage: http://siriport.ru
-Description: Best Original Siri iOS 5.1.X
-Tag: purpose::extension
-Author: Dmitriy Garitskiy <http://siriport.ru/>
-Depiction: http://aptinfo.siriport.ru/repo_files/pages/siriport_for_5_1.html
-Icon: file:///var/siriport.ru/icon64.png
-Name: SiriPort (Original)
-Sponsor: SiriPort.Ru <http://siriport.ru/forum/user/1-gdimait/>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware(>= 5.0), mobilesubstrate
+Filename: ./debs/protube2_1.1.3_iphoneos-arm.deb
+Size: 276300
+MD5sum: e7f9ba32bf4f3f1b3054a9a34116a398
+SHA1: c78f48ff7da680e23d3b01075d1e52b3a1684964
+SHA256: 08ccbc225d0e1583faab3393835752df6561337cd3059b2a5f399ca48f60c5ba
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=protube2Dp
+Description: power features for Google's YouTube App
+Author: Jonas Gessner <support@j-gessner.de>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=protube2Dp
+Dev: maxner
+Name: ProTube Extension for YouTube
 
 Package: ru.anonz.jigtyhack
 Version: 0.0.1-2
@@ -817,6 +827,21 @@ Author: NetMage <scw@scw.us>
 Depiction: http://modmyi.com/info/afctwoadd.d.php
 Name: afc2add
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: vn.duowan.gameplayer
+Version: 3.4
+Architecture: iphoneos-arm
+Maintainer: Maocai Luo
+Conflicts: com.duowan.gameplayer
+Filename: ./debs/gameplayer_3.4.deb
+Size: 1504288
+MD5sum: 4da8e35ca7a48bf59d09713c230eaa94
+SHA1: 51f5376c0820aafe372ef2944f09b6510616bd0b
+SHA256: e328d63e981b2cd4a1e477992854f99727f243e8e6b3f82522a27b9dca8dbd14
+Section: Tools
+Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 6.x, 7.x, 8.x and 9.x are supported.
+Author: Maocai Luo
+Name: GamePlayer (iOS 6-9)
 
 Package: vn.gsm.localiapstore
 Version: 1.4-2
@@ -968,23 +993,6 @@ Description: Ad Removal Patch for Activator (Required v1.8.3 or newer).
 Author: Cydia.vn
 Depiction: Ad Removal Patch for Activator (Required v1.8.3 or newer).
 Name: Activator NoAds Patch
-
-Package: vn.xn117khdsh.protube2
-Version: 2.2.3
-Architecture: iphoneos-arm
-Maintainer: xn117khdsh
-Depends: firmware(>= 5.0), mobilesubstrate(>= 0.9.5000), preferenceloader
-Filename: ./debs/protube2_2.2.3_yt.deb
-Size: 2688956
-MD5sum: 7934f3db8a96638fd192e0c44af67642
-SHA1: d4e772d1b465ddf1c1c62acde717c289308a518c
-SHA256: 840c45f84f7d56435e9d7dc9ac0c133be2786c4b177a8056a79f35baf035be79
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=protube2Dp
-Description: adds power features to Google's YouTube App
-Author: Jonas Gessner
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=protube2Dp
-Name: ProTube Extension for YouTube
 
 Package: vn.xn117khdsh.quicklock2
 Version: 1.0-2
