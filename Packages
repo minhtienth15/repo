@@ -1,3 +1,18 @@
+Package: GamePlayer
+Version: 3.4
+Architecture: iphoneos-arm
+Maintainer: Maocai Luo <luomao2000@tom.com>
+Installed-Size: 2800
+Pre-Depends: firmware (>= 6.0), mobilesubstrate
+Filename: ./debs/gameplayer_3.4_iphoneos-arm.deb
+Size: 1502822
+MD5sum: 49d88577e231d4c36ae0f8cbb40bfb14
+SHA1: 2315df12d000df821673b469dbcd571af5266f78
+SHA256: eaf7308247c12518e5123a078737aff94685b3534d2352926719bcc049adb440
+Section: utils
+Priority: optional
+Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 6.x, 7.x, 8.x and 9.x are supported.
+
 Package: com.fuerza.N3Hacks
 Version: 1.0.0-1
 Architecture: iphoneos-arm
@@ -828,21 +843,6 @@ Depiction: http://modmyi.com/info/afctwoadd.d.php
 Name: afc2add
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
-Package: vn.duowan.gameplayer
-Version: 3.4
-Architecture: iphoneos-arm
-Maintainer: Maocai Luo
-Conflicts: com.duowan.gameplayer
-Filename: ./debs/gameplayer_3.4.deb
-Size: 1504288
-MD5sum: 4da8e35ca7a48bf59d09713c230eaa94
-SHA1: 51f5376c0820aafe372ef2944f09b6510616bd0b
-SHA256: e328d63e981b2cd4a1e477992854f99727f243e8e6b3f82522a27b9dca8dbd14
-Section: Tools
-Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 6.x, 7.x, 8.x and 9.x are supported.
-Author: Maocai Luo
-Name: GamePlayer (iOS 6-9)
-
 Package: vn.gsm.localiapstore
 Version: 1.4-2
 Architecture: iphoneos-arm
@@ -960,22 +960,6 @@ Section: Tweaks
 Description: Free inapp purchases for old iOS
 Author: Appstore
 Name: iAP Cracker (iOS 3-5)
-
-Package: vn.xn117khdsh.igameguardian
-Version: 3.1.0
-Architecture: iphoneos-arm
-Maintainer: xn117khdsh
-Depends: firmware (>= 5.0), firmware (<< 7.0)
-Filename: ./debs/igameguardian.deb
-Size: 260140
-MD5sum: dc22cd229adaab4be89fbfed7732bb66
-SHA1: e4309d9f31896ec1baa3ffca4a78086740b2a076
-SHA256: 15f0d31dba709adb66a8bf0db3e0b6740083cb0c9c677a85a148903f4996eda8
-Section: Utilities
-Description: iGameGuardian is a game cheating engine for iOS 5.x/6.x.
-Author: Guardian
-Icon: file:///Applications/iGameGuardian.app/pug_57.png
-Name: iGameGuardian
 
 Package: vn.xn117khdsh.libactivatorpatch
 Version: 1.8.3
