@@ -30,6 +30,22 @@ Description: NOVA 3: Freedom Edition hacks by Fuerza for iOSGods.com Configure i
 Author: Fuerza
 Name: Freedom Edition Hacks +3
 
+Package: com.hackyouriphone.gameplayer
+Version: 1.5.4
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Pre-Depends: firmware (>= 4.3), mobilesubstrate
+Filename: ./debs/com.hackyouriphone.gameplayer_1.5.4_iphoneos-arm.deb
+Size: 1087894
+MD5sum: ee9af6ee9dedc4f4f4e2b45fa1c3e159
+SHA1: aacf3bb8353be8f5ade2c965b245511a1e52a48c
+SHA256: 737aa7716b725fddd5a12752419fdbd5e6b1ff1c0cbd0479b0324d1a730dfbc2
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=gameplayer
+Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 4.3.x, 5.x, 6.x and 7.x are supported.
+Author: HYI <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=gameplayer
+
 Package: com.ioscheaters.mc4
 Version: 1.1.0-9
 Architecture: iphoneos-arm
