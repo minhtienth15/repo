@@ -83,6 +83,36 @@ Depiction: http://modmyi.com/info/ncsettings.d.php
 Name: NCSettings
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
+Package: com.jjr.gamelofthook
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 鸡精人
+Installed-Size: 60
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jjr.gamelofthook_1.0_iphoneos-arm.deb
+Size: 3456
+MD5sum: 7ada95ef2052bae47f35a536cf369cfd
+SHA1: 6938d3223499b402f6a743225daf0aba388ee26d
+SHA256: 65659bb578c59bf07215e5f175a878b929b5c36432a643406c5b91b86407b9fd
+Section: 工具
+Author: 鸡精人
+Name: GameloftHook
+
+Package: com.jjr.halfbrickhook
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: 鸡精人
+Installed-Size: 104
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.jjr.halfbrickhook_1.0-1_iphoneos-arm.deb
+Size: 3308
+MD5sum: ffaf710d84663d8c6c7aed58b13a4d7d
+SHA1: fabd2a87e2c9fca0473e3165301867afdc415caa
+SHA256: 4408f4d1c5b23c775d3cdb22182f16102a2f5bdc666c56582dd8f727c3c4ed37
+Section: 工具
+Author: 鸡精人
+Name: HalfbrickHook
+
 Package: com.linusyang.appsyncnew
 Version: 1.4
 Architecture: iphoneos-arm
@@ -166,6 +196,22 @@ Section: Tweaks
 Description: Tired to watch YouTube on Safari or Google Chrome on older device? Download YouTube 10.11.11546, spoof the version on the plist file and then get VerduraiOS! For the full guide on how to use it, please visit my GitHub page :)
 Author: PiercingImpulse
 Name: Verdura iOS [BETA]
+
+Package: com.slugrail.ipainstaller.pok
+Version: 3.24
+Architecture: iphoneos-arm
+Maintainer: 鸡精人
+Depends: firmware (>= 5.0), com.autopear.installipa (>= 3.4)
+Filename: ./debs/com.slugrail.ipainstaller.pok_3.24_iphoneos-arm.deb
+Size: 1520044
+MD5sum: dd49561ed5c5c07b97401b1dd5711349
+SHA1: f94d92a3caacea9f189106fd6ffae800809e1af5
+SHA256: 9a870fa38cbd3b092bd088d1d789f0ee5bcab0938f4b73cd6b5631ee5813a9f5
+Section: 系统工具
+Tag: purpose::uikit, role::enduser
+Author: 鸡精人
+Icon: file:///Applications/IPA_Installer.app/Icon.png
+Name: IPA Installer hack
 
 Package: com.subdiox.quicklock
 Version: 1.0.0
